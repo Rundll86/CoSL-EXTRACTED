@@ -129,6 +129,7 @@ function speakerKey(speaker) {
     return `name:${String(speaker.speaker_name_id ?? "")}`;
 }
 for (const action of actions) {
+    if (!action.active) continue;
     const payload = action.payload ?? {};
     if (action.type === "AvatarBindAction") {
         const nameId = String(payload.NameId ?? "");
@@ -168,6 +169,7 @@ for (const action of actions) {
         sprite ??= await resolveCharacterAvatar(characterId, refData?.Type);
         if (sprite && key) currentAvatarBySpeaker.set(key, sprite);
     }
+    const centerDisplay = Boolean(action.dialogue?.DisplayMode);
     const output = {
         type: action.type,
         text: l10n[action.language_id]?.replace(/<\/?[^>]+>/g, ''),
@@ -175,6 +177,7 @@ for (const action of actions) {
         order: action.order,
         background: getAssetPlainName(pointerId(action.payload?.BackgroundSprite)),
         pause: action.payload?.PauseDuration,
+        center: centerDisplay,
         ...(SPECIAL_FIELDS[action.path_id] ?? {})
     };
     if (action.type === "DialogueAction") {
