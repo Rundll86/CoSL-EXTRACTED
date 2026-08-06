@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "main": "extract.js",
     "scripts": {
-        "build": "node . > log.txt"
+        "build": "node . > article.txt"
     },
     "keywords": [],
     "author": "",

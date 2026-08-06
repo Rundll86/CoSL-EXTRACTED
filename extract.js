@@ -3,35 +3,27 @@ import assetsJson from "./assets.json" with {type: "json"};
 import fs from "fs/promises";
 import jsonbig from "json-bigint";
 import path from "path";
-
 const SPECIAL_FIELDS = {};
-
 const mainJson = jsonbig({ storeAsString: true }).parse(await fs.readFile("./main.json", "utf8"));
 const assetByKey = new Map(assetsJson.map(asset => [`${asset.type}:${asset.path_id}`, asset]));
 const objectCache = new Map();
-
 function pointerId(pointer) {
     return pointer?.m_PathID ?? pointer?.path_id;
 }
-
 function findAsset(pathId, type = "Sprite") {
     if (pathId === undefined || pathId === null || String(pathId) === "0") return undefined;
     return assetByKey.get(`${type}:${String(pathId)}`);
 }
-
 function getAssetPlainName(pathId, type = "Sprite") {
     const asset = findAsset(pathId, type);
     return asset?.relative_path
         ? path.basename(asset.relative_path, path.extname(asset.relative_path))
         : undefined;
 }
-
 async function readExportedObject(pathId, type = "MonoBehaviour") {
     const asset = findAsset(pathId, type);
     if (!asset?.relative_path) return undefined;
     if (!objectCache.has(asset.relative_path)) {
-        // Unity PathID is int64. Native JSON.parse rounds it and makes the
-        // subsequent assets.json lookup fail for most avatar references.
         objectCache.set(
             asset.relative_path,
             jsonbig({ storeAsString: true }).parse(await fs.readFile(asset.relative_path, "utf8"))
@@ -39,16 +31,11 @@ async function readExportedObject(pathId, type = "MonoBehaviour") {
     }
     return objectCache.get(asset.relative_path);
 }
-
 function spriteName(asset) {
     return asset?.relative_path
         ? path.basename(asset.relative_path, path.extname(asset.relative_path))
         : undefined;
 }
-
-// A DialogueAvatar reference may point directly to a Sprite or to a DA_* object.
-// Keep the selected state when it exists, then fall back to the stable Normal
-// state. This also handles references whose Type field is not reliable.
 async function resolveAvatarReference(ref) {
     if (!ref) return undefined;
     const direct = getAssetPlainName(pointerId(ref), "Sprite");
@@ -61,16 +48,11 @@ async function resolveAvatarReference(ref) {
     }
     return undefined;
 }
-
 async function resolveExplicitAvatar(refData) {
     if (!refData?.Enabled) return undefined;
     return await resolveAvatarReference(refData.Sprite)
         ?? await resolveAvatarReference(refData.QlcAvatar);
 }
-
-// Build character metadata from the exported Character MonoBehaviours instead
-// of hard-coding CharacterId values. ReferenceCharacter dialogues carry the
-// character object path ID, which is a separate declaration mechanism.
 const characterById = new Map();
 const characterByNameId = new Map();
 const characterByPathId = new Map();
@@ -80,16 +62,11 @@ for (const asset of assetsJson.filter(a => a.type === "MonoBehaviour" && /_chara
     if (object?.NameId !== undefined) characterByNameId.set(String(object.NameId), object);
     characterByPathId.set(String(asset.path_id), object);
 }
-
-// Character assets use full names, while dialogue avatar Sprites use these
-// abbreviations. This is only a naming bridge; CharacterId still comes from
-// the exported character objects / AvatarBindAction rather than being guessed.
 const avatarPrefixByCharacterName = new Map([
     ["QianLucai", "QLC"], ["YanLiaoliao", "YLL"], ["LuoLuoai", "LLA"],
     ["JiangBolao", "JBL"], ["JiYe", "JY"], ["HongZhenli", "HZL"],
     ["LuoMiujia", "LMJ"], ["QianSanyuan", "QSY"], ["QiuLian", "QL"]
 ]);
-
 const dialogueAvatarAssets = assetsJson.filter(a =>
     a.type === "MonoBehaviour" && /^DA_/i.test(a.name)
 );
@@ -101,13 +78,11 @@ for (const asset of dialogueAvatarAssets) {
         avatarByCharacterId.get(String(object.Character_Id)).push(object);
     }
 }
-
 function avatarCandidates(characterId, type = 1) {
     const all = avatarByCharacterId.get(String(characterId)) ?? [];
     const marker = Number(type) === 1 ? "_A_" : "_H_";
     return all.filter(a => a.m_Name?.includes(marker)).concat(all.filter(a => !a.m_Name?.includes(marker)));
 }
-
 async function resolveCharacterAvatar(characterId, type = 1) {
     if (characterId === undefined || characterId === null) return undefined;
     for (const avatar of avatarCandidates(characterId, type)) {
@@ -115,14 +90,10 @@ async function resolveCharacterAvatar(characterId, type = 1) {
             ?? await resolveAvatarReference(avatar.Wink);
         if (sprite) return sprite;
     }
-
     const character = characterById.get(String(characterId));
     const embedded = await resolveAvatarReference(character?.Avatar)
         ?? await resolveAvatarReference(character?.avatar);
     if (embedded) return embedded;
-
-    // Most non-protagonists use a plain DialogueAvatar_* Sprite and therefore
-    // have no DA_* object. Select their neutral/default portrait by convention.
     const prefix = avatarPrefixByCharacterName.get(character?.m_Name);
     if (!prefix) return undefined;
     const candidates = assetsJson.filter(asset =>
@@ -136,23 +107,18 @@ async function resolveCharacterAvatar(characterId, type = 1) {
         ?? candidates[0];
     return spriteName(preferred);
 }
-
 const { Chs: l10n } = l10nJson;
 const { actions } = mainJson.screenplays[0];
 const avatarBindings = new Map();
 const historyAvatars = new Map();
 const currentAvatarBySpeaker = new Map();
-// Track the protagonist ("我") character from HistoryAvatarAction.SelfSpeakerCharacterId.
-// The game uses this to indicate which character the player currently controls.
 let selfSpeakerCharacterId = undefined;
 const result = [];
-
 function speakerKey(speaker) {
     if (!speaker) return undefined;
     if (speaker.reference_character) return `character:${String(pointerId(speaker.character))}`;
     return `name:${String(speaker.speaker_name_id ?? "")}`;
 }
-
 for (const action of actions) {
     const payload = action.payload ?? {};
     if (action.type === "AvatarBindAction") {
@@ -164,13 +130,10 @@ for (const action of actions) {
         const characterId = String(payload.CharacterId ?? "");
         if (Number(payload.Operation) === 0) historyAvatars.set(characterId, await resolveAvatarReference(payload.Avatar));
         else if (Number(payload.Operation) === 1) historyAvatars.delete(characterId);
-        // Track which character the protagonist ("我") currently maps to.
-        // Every HistoryAvatarAction carries the active self-speaker CharacterId.
         if (payload.SelfSpeakerCharacterId !== undefined && payload.SelfSpeakerCharacterId !== null && String(payload.SelfSpeakerCharacterId) !== "0") {
             selfSpeakerCharacterId = payload.SelfSpeakerCharacterId;
         }
     }
-
     const refData = action.dialogue?.AvatarRefData;
     const speakerCharacter = characterByPathId.get(String(pointerId(action.speaker?.character)))
         ?? characterByNameId.get(String(action.speaker?.speaker_name_id ?? ""));
@@ -180,33 +143,22 @@ for (const action of actions) {
     const sayer = l10n[speakerNameId]?.replace(/<\/?[^>]+>/g, '')
         ?? speakerCharacter?.Name?.replace(/<\/?[^>]+>/g, '');
     let sprite;
-    // IgnoreAvatar controls whether the game UI draws the portrait; it does not
-    // mean the speaker has no portrait. Resolve it anyway for normalized data.
     if (action.type === "DialogueAction") {
         const key = speakerKey(action.speaker);
         sprite = await resolveExplicitAvatar(refData);
-
-        // A zero reference means "keep this speaker's current avatar".
         if (sprite && key) currentAvatarBySpeaker.set(key, sprite);
         sprite ??= key ? currentAvatarBySpeaker.get(key) : undefined;
-
         const nameId = String(action.speaker?.speaker_name_id ?? "");
         const characterObject = speakerCharacter;
         const boundCharacterId = avatarBindings.get(nameId);
         let characterId = boundCharacterId ?? characterObject?.Id;
-        // When the speaker is "我" (the protagonist/self), there is no
-        // AvatarBindAction or character NameId that directly maps to the "我"
-        // name_id (1000009). Use the SelfSpeakerCharacterId tracked from
-        // HistoryAvatarAction to identify the protagonist character.
         if (characterId === undefined && selfSpeakerCharacterId !== undefined && sayer === "我") {
             characterId = selfSpeakerCharacterId;
         }
         sprite ??= historyAvatars.get(String(characterId));
         sprite ??= await resolveCharacterAvatar(characterId, refData?.Type);
-
         if (sprite && key) currentAvatarBySpeaker.set(key, sprite);
     }
-
     const output = {
         type: action.type,
         text: l10n[action.language_id]?.replace(/<\/?[^>]+>/g, ''),
@@ -216,11 +168,7 @@ for (const action of actions) {
         pause: action.payload?.PauseDuration,
         ...(SPECIAL_FIELDS[action.path_id] ?? {})
     };
-
     if (action.type === "DialogueAction") {
-        // 旁白和没有说话者的主角内心独白不输出 sprite。其他实际台词
-        // 必须有 sprite 字段；若游戏没有为场外 NPC/群体配置头像，则用
-        // null 明确表示“存在说话者但无头像资源”，而不是遗漏该字段。
         const hasSpeaker = Boolean(sayer || action.speaker?.reference_character);
         if (hasSpeaker) output.sprite = sprite ?? null;
     }
@@ -233,11 +181,13 @@ await fs.writeFile("tree.txt", result.filter(e => [
     "PauseAction",
     "StorylineFlagAction"
 ].includes(e.type) || e.type.startsWith("CharacterAction_")).map(e => JSON.stringify(e).replaceAll(",", "<UNCENSORED>")).join("\n"), "utf8");
-await fs.writeFile("human-read.txt", result.map(e => {
-    if (e.type === "DialogueAction") {
-        return e.sayer ? `${e.sayer}：${e.text}` : `\n${e.text}\n`;
-    } else {
-        return "";
-    }
-}).join("\n"), "utf8");
+console.log(
+    result.map(e => {
+        if (e.type === "DialogueAction") {
+            return e.sayer ? `${e.sayer}：${e.text.replaceAll("\n", "\n    ")}` : `\n${e.text}\n`;
+        } else {
+            return "";
+        }
+    }).join("\n")
+);
 
