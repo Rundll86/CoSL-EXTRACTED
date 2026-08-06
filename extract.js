@@ -184,10 +184,10 @@ await fs.writeFile("tree.txt", result.filter(e => [
 console.log(
     result.map(e => {
         if (e.type === "DialogueAction") {
-            return e.sayer ? `${e.sayer}：${e.text.replaceAll("\n", "\n    ")}` : `\n${e.text}\n`;
+            return e.sayer ? `${e.sayer}：${e.text.replaceAll("\n", "\n  ")}` : `\n${e.text}\n`;
         } else {
-            return "";
+            return null;
         }
-    }).join("\n")
+    }).filter(Boolean).join("\n")
 );
 
