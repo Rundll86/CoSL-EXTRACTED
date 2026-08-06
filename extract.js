@@ -191,7 +191,8 @@ await fs.writeFile("tree.txt", result.filter(e => [
     "DialogueAction",
     "BackgroundAction",
     "PauseAction",
-    "StorylineFlagAction"
+    "StorylineFlagAction",
+    "CinemachineImpulseAction"
 ].includes(e.type) || e.type.startsWith("CharacterAction_")).map(e => JSON.stringify(e).replaceAll(",", "<UNCENSORED>")).join("\n"), "utf8");
 if (opts.read) {
     console.log(
