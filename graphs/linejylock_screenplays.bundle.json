@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "kind": "screenplay_bundle",
+  "bundle": "linejylock_screenplays.bundle",
+  "prefix_bytes_removed": 16,
+  "screenplays": [
+    {
+      "path_id": -7292737154893981490,
+      "name": "LineJYLock",
+      "guid": "377c608a-8bf3-46c1-a303-7719038eb46f",
+      "actions": [
+        {
+          "id": "linejylock_screenplays.bundle:-955930452796069194",
+          "bundle": "linejylock_screenplays.bundle",
+          "screenplay_path_id": -7292737154893981490,
+          "order": 0,
+          "path_id": -955930452796069194,
+          "type": "DialogueAction",
+          "guid": "a4ee1fc4-a689-4b51-b800-4231225a76b3",
+          "active": true,
+          "delay": -1.0,
+          "text": "……",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 1600001,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linejylock_screenplays.bundle:199611300277223857",
+          "bundle": "linejylock_screenplays.bundle",
+          "screenplay_path_id": -7292737154893981490,
+          "order": 1,
+          "path_id": 199611300277223857,
+          "type": "DialogueAction",
+          "guid": "93783dd5-1375-40f4-96fe-9f18290925b6",
+          "active": true,
+          "delay": -1.0,
+          "text": "不知道为什么，总感觉现在由我自己拿上这个……嗯，有点为时过早的感觉？",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 1600002,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linejylock_screenplays.bundle:-3113824925881815861",
+          "bundle": "linejylock_screenplays.bundle",
+          "screenplay_path_id": -7292737154893981490,
+          "order": 2,
+          "path_id": -3113824925881815861,
+          "type": "DialogueAction",
+          "guid": "8c9f03ce-373e-4379-b00c-f92858649bc7",
+          "active": true,
+          "delay": -1.0,
+          "text": "真是奇怪。",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 1600003,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linejylock_screenplays.bundle:6110820586262601409",
+          "bundle": "linejylock_screenplays.bundle",
+          "screenplay_path_id": -7292737154893981490,
+          "order": 3,
+          "path_id": 6110820586262601409,
+          "type": "DialogueAction",
+          "guid": "814cae9e-207a-46be-a1d8-00b34170fb4c",
+          "active": true,
+          "delay": -1.0,
+          "text": "算了，还是再仔细想一想吧……",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 1600004,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linejylock_screenplays.bundle:3918316948697384788",
+          "bundle": "linejylock_screenplays.bundle",
+          "screenplay_path_id": -7292737154893981490,
+          "order": 4,
+          "path_id": 3918316948697384788,
+          "type": "EventAction",
+          "guid": "7a6013c7-2da9-45a0-a44c-49e65ad8a821",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "7a6013c7-2da9-45a0-a44c-49e65ad8a821",
+            "PlayEvent": 30,
+            "PlayEventParameters": "-1",
+            "FastForwardEvent": 0,
+            "FastForwardEventParameters": "",
+            "RewindEvent": 0,
+            "RewindEventParameters": ""
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linejylock_screenplays.bundle:8020553612443573547",
+          "bundle": "linejylock_screenplays.bundle",
+          "screenplay_path_id": -7292737154893981490,
+          "order": 5,
+          "path_id": 8020553612443573547,
+          "type": "BranchReturnAction",
+          "guid": "70e3d66e-b25b-4aa9-89c2-e86ef45a8ae1",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "70e3d66e-b25b-4aa9-89c2-e86ef45a8ae1"
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        }
+      ]
+    }
+  ],
+  "parse_errors": []
+}

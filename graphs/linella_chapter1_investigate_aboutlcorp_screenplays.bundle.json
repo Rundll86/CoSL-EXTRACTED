@@ -1,0 +1,2488 @@
+{
+  "schema_version": 1,
+  "kind": "screenplay_bundle",
+  "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+  "prefix_bytes_removed": 16,
+  "screenplays": [
+    {
+      "path_id": -5122788567968479,
+      "name": "LineLLA_Chapter1_Investigate_AboutLCorp",
+      "guid": "4a094df3-635c-4919-903e-09f459bf0c6d",
+      "actions": [
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:8116437994714387476",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 0,
+          "path_id": 8116437994714387476,
+          "type": "DialogueAction",
+          "guid": "07719ed6-6bc3-4e97-8e08-c7a0d72885be",
+          "active": true,
+          "delay": -1.0,
+          "text": "这个叫做L集团的公司是什么？为什么我们要反抗他们？",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 130101700,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 5,
+                "m_PathID": 480277603833666437
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:-6542191144014789002",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 1,
+          "path_id": -6542191144014789002,
+          "type": "DialogueAction",
+          "guid": "abe81c56-2641-41a8-8318-f260df9bff8e",
+          "active": true,
+          "delay": -1.0,
+          "text": "L集团是个大公司，基本上……不对，他们的确掌控了整个W城。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 2,
+              "path_id": -3931460406991956076
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130101800,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 2,
+              "path_id": -3931460406991956076
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:-564454084471945793",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 2,
+          "path_id": -564454084471945793,
+          "type": "DialogueAction",
+          "guid": "d19a15d0-0596-4a46-8a97-b1aad4985bf9",
+          "active": true,
+          "delay": -1.0,
+          "text": "方方面面都是吗？甚至包括政治方面？",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 130101900,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:-2805052335393537894",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 3,
+          "path_id": -2805052335393537894,
+          "type": "DialogueAction",
+          "guid": "c85b5af5-4734-4c02-aac7-efe62222209b",
+          "active": true,
+          "delay": -1.0,
+          "text": "嗯嗯——就是那种超级大的财阀。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 2,
+              "path_id": -3931460406991956076
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130102000,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 2,
+              "path_id": -3931460406991956076
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:5405659420476580165",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 4,
+          "path_id": 5405659420476580165,
+          "type": "DialogueAction",
+          "guid": "b74b3902-27ee-45a1-affc-884a8e0555db",
+          "active": true,
+          "delay": -1.0,
+          "text": "嗯……好像罗罗埃以前让我陪他玩的那个游戏啊。",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130102100,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:4361986320282491578",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 5,
+          "path_id": 4361986320282491578,
+          "type": "DialogueAction",
+          "guid": "a3c394e6-34c8-4136-b2e3-c8d37215f246",
+          "active": true,
+          "delay": -1.0,
+          "text": "未来的阔叶镇变成了赛博朋克都市？好奇怪……",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130102200,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:-5327271873619002302",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 6,
+          "path_id": -5327271873619002302,
+          "type": "DialogueAction",
+          "guid": "5fc39c1b-e377-4528-a564-49d26a919110",
+          "active": true,
+          "delay": -1.0,
+          "text": "那这个集团做了很多坏事吗，比如平民的生活因为他们的剥削变得很差……之类的？",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 130102300,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:-2335695409652825415",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 7,
+          "path_id": -2335695409652825415,
+          "type": "CharacterAction_LuoLuoai",
+          "guid": "e324556e-f149-4221-9dc9-c215b1a0f58a",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "e324556e-f149-4221-9dc9-c215b1a0f58a",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 0,
+            "Cloth_H": 0,
+            "Expression_H": 0,
+            "SubGroup_Adult": 0,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 1,
+            "Expression_Brave": 0,
+            "Expression_Detective": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:-6842546457417215838",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 8,
+          "path_id": -6842546457417215838,
+          "type": "DialogueAction",
+          "guid": "ed952bea-5a91-4043-a9cf-7a2e53241dbe",
+          "active": true,
+          "delay": -1.0,
+          "text": "并没有。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 1,
+              "path_id": -4840217188824566169
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130102400,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 1,
+              "path_id": -4840217188824566169
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:-6401915938216484365",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 9,
+          "path_id": -6401915938216484365,
+          "type": "DialogueAction",
+          "guid": "90e25aa2-242a-4967-899e-06c56c806c24",
+          "active": true,
+          "delay": -1.0,
+          "text": "不如说，W城居民的生活反而因为近些年L集团的扩展改善了许多。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 1,
+              "path_id": -4840217188824566169
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130102500,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 1,
+              "path_id": -4840217188824566169
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:-728686894244538308",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 10,
+          "path_id": -728686894244538308,
+          "type": "DialogueAction",
+          "guid": "7aca5df4-0b68-47bd-8e40-b0d61668904a",
+          "active": true,
+          "delay": -1.0,
+          "text": "这不是好事吗，那为什么我们要反抗他们？",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 130102600,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:-5723302490278975087",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 11,
+          "path_id": -5723302490278975087,
+          "type": "CharacterAction_YanLiaoliao",
+          "guid": "d389fef3-646a-4450-b349-de1996437836",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "d389fef3-646a-4450-b349-de1996437836",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 0,
+            "Cloth_H": 0,
+            "Expression_H": 0,
+            "SubGroup_Adult": 0,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 5,
+            "DynamicItem_Adult": 0,
+            "Expression_Detective": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:-3158159466183019618",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 12,
+          "path_id": -3158159466183019618,
+          "type": "DialogueAction",
+          "guid": "6066bd4c-c9aa-4071-a9c0-5124495db4a1",
+          "active": true,
+          "delay": -1.0,
+          "text": "我怎么会被反抗军的带头老大问这个问题……呃啊，好诡异。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 3,
+              "path_id": -3916218622374444140
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130102700,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 3,
+              "path_id": -3916218622374444140
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:-3748409343330541955",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 13,
+          "path_id": -3748409343330541955,
+          "type": "DialogueAction",
+          "guid": "e1373aeb-bdb2-49fd-b0cb-9cd1e68f3219",
+          "active": true,
+          "delay": -1.0,
+          "text": "……啧。",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 130102800,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:4664461273170563384",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 14,
+          "path_id": 4664461273170563384,
+          "type": "DialogueAction",
+          "guid": "cff2e99b-dacc-4cc2-97f5-26c8cb89d670",
+          "active": true,
+          "delay": -1.0,
+          "text": "毕竟这组织是你带头组起来的啊……",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 3,
+              "path_id": -3916218622374444140
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130102900,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 3,
+              "path_id": -3916218622374444140
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:4877942485200805160",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 15,
+          "path_id": 4877942485200805160,
+          "type": "CharacterAction_YanLiaoliao",
+          "guid": "2c60cb86-2772-4d7e-872b-03ab422d17a1",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "2c60cb86-2772-4d7e-872b-03ab422d17a1",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 0,
+            "Cloth_H": 0,
+            "Expression_H": 0,
+            "SubGroup_Adult": 0,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 1,
+            "DynamicItem_Adult": 0,
+            "Expression_Detective": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:8119634026536843734",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 16,
+          "path_id": 8119634026536843734,
+          "type": "DialogueAction",
+          "guid": "cf3441b4-9c81-4c75-baa0-7b6e8b64d30c",
+          "active": true,
+          "delay": -1.0,
+          "text": "好了好了，我正经一点。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 3,
+              "path_id": -3916218622374444140
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130103000,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 3,
+              "path_id": -3916218622374444140
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:-4934511617600954231",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 17,
+          "path_id": -4934511617600954231,
+          "type": "DialogueAction",
+          "guid": "e09f0860-049d-4b91-bfa2-c91ec3056505",
+          "active": true,
+          "delay": -1.0,
+          "text": "原因其实很简单——因为L集团管理下的W城，呃，很无聊？",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 3,
+              "path_id": -3916218622374444140
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130103100,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 3,
+              "path_id": -3916218622374444140
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:-4044476758454782066",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 18,
+          "path_id": -4044476758454782066,
+          "type": "DialogueAction",
+          "guid": "b9153a65-27e4-4888-b423-18582f969be2",
+          "active": true,
+          "delay": -1.0,
+          "text": "很无聊……？",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 130103200,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:-7950543646455278597",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 19,
+          "path_id": -7950543646455278597,
+          "type": "DialogueAction",
+          "guid": "2169eb39-32a7-4e93-bda4-d0bb7b1a4c88",
+          "active": true,
+          "delay": -1.0,
+          "text": "因为L集团在改善了人们生活条件的同时，在极大程度上限制了人们的自由。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 1,
+              "path_id": -4840217188824566169
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130103300,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 1,
+              "path_id": -4840217188824566169
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:2894013199672715123",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 20,
+          "path_id": 2894013199672715123,
+          "type": "DialogueAction",
+          "guid": "1b243882-8173-4dd1-9b5d-0c751ea1fca0",
+          "active": true,
+          "delay": -1.0,
+          "text": "他们笃信自己规划的秩序是带领W城进步的关键。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 1,
+              "path_id": -4840217188824566169
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130103400,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 1,
+              "path_id": -4840217188824566169
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:-569132711312787117",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 21,
+          "path_id": -569132711312787117,
+          "type": "DialogueAction",
+          "guid": "b88410cc-94a0-452a-b808-60a88a2f0749",
+          "active": true,
+          "delay": -1.0,
+          "text": "于是在很多方面，像是小到平日里的衣食住行，大到诸如文章、影视之类的文艺创作，他们都制定了一套格外严苛...",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 1,
+              "path_id": -4840217188824566169
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130103500,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 1,
+              "path_id": -4840217188824566169
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:6970607001680621862",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 22,
+          "path_id": 6970607001680621862,
+          "type": "DialogueAction",
+          "guid": "64d70f75-e150-40fa-881c-e92ab48343f7",
+          "active": true,
+          "delay": -1.0,
+          "text": "而且违反这些规则的处罚非常重……",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 2,
+              "path_id": -3931460406991956076
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130103600,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 2,
+              "path_id": -3931460406991956076
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:2122703461466647153",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 23,
+          "path_id": 2122703461466647153,
+          "type": "DialogueAction",
+          "guid": "8d17b334-435a-4782-bd5b-cd113e6e9cac",
+          "active": true,
+          "delay": -1.0,
+          "text": "比如在规定用餐时间后餐厅不能营业，也不能在公共场合进食。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 2,
+              "path_id": -3931460406991956076
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130103700,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 2,
+              "path_id": -3931460406991956076
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:42056824059545900",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 24,
+          "path_id": 42056824059545900,
+          "type": "DialogueAction",
+          "guid": "96260bc9-703b-4bcb-add9-ed9812327775",
+          "active": true,
+          "delay": -1.0,
+          "text": "还有晚上的宵禁时间不能出门之类的……",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 3,
+              "path_id": -3916218622374444140
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130103800,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 3,
+              "path_id": -3916218622374444140
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:7659538262615563083",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 25,
+          "path_id": 7659538262615563083,
+          "type": "DialogueAction",
+          "guid": "0f14df8d-3356-4302-bdcb-3ceec86a3e10",
+          "active": true,
+          "delay": -1.0,
+          "text": "违反这些规则的要么轻一点的会被逮捕，严重点就直接会被处刑。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 3,
+              "path_id": -3916218622374444140
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130103900,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 3,
+              "path_id": -3916218622374444140
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:-382700412412948617",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 26,
+          "path_id": -382700412412948617,
+          "type": "DialogueAction",
+          "guid": "f6b8ecc6-c452-4356-8719-218b6d6c7019",
+          "active": true,
+          "delay": -1.0,
+          "text": "反正……如果要我来找个词形容这里的话，那一定是无聊。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 3,
+              "path_id": -3916218622374444140
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130104000,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 3,
+              "path_id": -3916218622374444140
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:2300072700505633149",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 27,
+          "path_id": 2300072700505633149,
+          "type": "DialogueAction",
+          "guid": "e532f5ca-19bf-4055-92f4-7f71d162a810",
+          "active": true,
+          "delay": -1.0,
+          "text": "……嗯，我可以理解。",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 130104100,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:1541002443751089121",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 28,
+          "path_id": 1541002443751089121,
+          "type": "DialogueAction",
+          "guid": "2cfe99a1-b6c9-4feb-a9ac-da9c29400898",
+          "active": true,
+          "delay": -1.0,
+          "text": "不是每个人都能接受用自由来换取更好的生活条件的。",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 130104200,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:6094127880967378905",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 29,
+          "path_id": 6094127880967378905,
+          "type": "DialogueAction",
+          "guid": "7baa88c4-63ad-442c-a179-e2520b424312",
+          "active": true,
+          "delay": -1.0,
+          "text": "如果换做是我的话……",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 130104300,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:8457444196688262045",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 30,
+          "path_id": 8457444196688262045,
+          "type": "DialogueAction",
+          "guid": "0401f3a1-b857-452a-87ca-123d4c5b7a77",
+          "active": true,
+          "delay": -1.0,
+          "text": "你也一定不会喜欢这种生活的。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 1,
+              "path_id": -4840217188824566169
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130104400,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 1,
+              "path_id": -4840217188824566169
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:4925039818945376907",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 31,
+          "path_id": 4925039818945376907,
+          "type": "DialogueAction",
+          "guid": "60a383f4-0b12-4c4b-9350-43bca1b214a9",
+          "active": true,
+          "delay": -1.0,
+          "text": "确实……",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 130104500,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:5392028478913425861",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 32,
+          "path_id": 5392028478913425861,
+          "type": "DialogueAction",
+          "guid": "8530493c-abf6-4fa7-9d60-b07d387e5fba",
+          "active": true,
+          "delay": -1.0,
+          "text": "不过为什么你这么确定？",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 130104600,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:5599237634301240179",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 33,
+          "path_id": 5599237634301240179,
+          "type": "CharacterAction_LuoLuoai",
+          "guid": "2820a853-bc30-45ba-ae2a-5c9fe917915a",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "2820a853-bc30-45ba-ae2a-5c9fe917915a",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 0,
+            "Cloth_H": 0,
+            "Expression_H": 0,
+            "SubGroup_Adult": 0,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 3,
+            "Expression_Brave": 0,
+            "Expression_Detective": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:8262982432870707247",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 34,
+          "path_id": 8262982432870707247,
+          "type": "DialogueAction",
+          "guid": "13adc2de-0032-416c-a015-deafec107326",
+          "active": true,
+          "delay": -1.0,
+          "text": "因为就是你一手创办了这个反抗组织，是你给了我们这些不满足于现状的人另一条道路。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 1,
+              "path_id": -4840217188824566169
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130104700,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 1,
+              "path_id": -4840217188824566169
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:-4122503356241757973",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 35,
+          "path_id": -4122503356241757973,
+          "type": "DialogueAction",
+          "guid": "12403f14-1964-4238-a248-089593f95bff",
+          "active": true,
+          "delay": -1.0,
+          "text": "我有……这么了不起？",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 130104800,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 4,
+                "m_PathID": -2148088793278186912
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:1986563314173543658",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 36,
+          "path_id": 1986563314173543658,
+          "type": "CharacterAction_YanLiaoliao",
+          "guid": "4e37a92d-7940-432a-9357-bbf6fc78b0bf",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "4e37a92d-7940-432a-9357-bbf6fc78b0bf",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 0,
+            "Cloth_H": 0,
+            "Expression_H": 0,
+            "SubGroup_Adult": 0,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 3,
+            "DynamicItem_Adult": 0,
+            "Expression_Detective": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:4006890612958781157",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 37,
+          "path_id": 4006890612958781157,
+          "type": "DialogueAction",
+          "guid": "7ef1207e-c3f3-4678-abae-93a4dc800bc5",
+          "active": true,
+          "delay": -1.0,
+          "text": "不然呢，你可是老大。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 3,
+              "path_id": -3916218622374444140
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130104900,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 3,
+              "path_id": -3916218622374444140
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:6445418231863610296",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 38,
+          "path_id": 6445418231863610296,
+          "type": "CharacterAction_JiangBolao",
+          "guid": "115af8e9-86d8-4bc2-a076-3a82f2d99cd6",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "115af8e9-86d8-4bc2-a076-3a82f2d99cd6",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 0,
+            "Cloth_H": 0,
+            "Expression_H": 0,
+            "DynamicItem_H": 0,
+            "SubGroup_Adult": 2,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 0,
+            "DynamicItem_Adult": 0,
+            "Expression_Detective": 0,
+            "DynamicItem_Detective": 0,
+            "Expression_Army": 3,
+            "Expression_Brave": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:-3467849723581600784",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 39,
+          "path_id": -3467849723581600784,
+          "type": "DialogueAction",
+          "guid": "8eec2876-3e5c-497b-bb09-4b182c7c47d8",
+          "active": true,
+          "delay": -1.0,
+          "text": "你还是我们最强的战力呢，没了你我们的大部分计划都实施不了喔。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 2,
+              "path_id": -3931460406991956076
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130105000,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 2,
+              "path_id": -3931460406991956076
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:-3943520480603966881",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 40,
+          "path_id": -3943520480603966881,
+          "type": "DialogueAction",
+          "guid": "9cc05daf-847b-4022-9dc1-ca6cb6301359",
+          "active": true,
+          "delay": -1.0,
+          "text": "……",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 130105100,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 5,
+                "m_PathID": 480277603833666437
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:7189936018729559233",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 41,
+          "path_id": 7189936018729559233,
+          "type": "DialogueAction",
+          "guid": "c3f80cdf-2807-491e-8c92-b3f5a81ccfbe",
+          "active": true,
+          "delay": -1.0,
+          "text": "不知道为啥，我突然感觉还挺高兴的。",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130105200,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:-6964078981518406590",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 42,
+          "path_id": -6964078981518406590,
+          "type": "DialogueAction",
+          "guid": "8bda61be-73d3-46c0-bcec-8c32dd9a570b",
+          "active": true,
+          "delay": -1.0,
+          "text": "……不对，现在哪是想这个的时候，还是赶紧问下一个问题吧。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130105300,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:591252916220121125",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 43,
+          "path_id": 591252916220121125,
+          "type": "CharacterAction_LuoLuoai",
+          "guid": "3d4749b4-f9d0-4061-a060-d5b6a414dc10",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "3d4749b4-f9d0-4061-a060-d5b6a414dc10",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 0,
+            "Cloth_H": 0,
+            "Expression_H": 0,
+            "SubGroup_Adult": 0,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 1,
+            "Expression_Brave": 0,
+            "Expression_Detective": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:-7290890294122389690",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 44,
+          "path_id": -7290890294122389690,
+          "type": "CharacterAction_YanLiaoliao",
+          "guid": "897b23d9-5008-43a5-9a7d-74bf43491782",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "897b23d9-5008-43a5-9a7d-74bf43491782",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 0,
+            "Cloth_H": 0,
+            "Expression_H": 0,
+            "SubGroup_Adult": 0,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 1,
+            "DynamicItem_Adult": 0,
+            "Expression_Detective": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:-5896890196663757321",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 45,
+          "path_id": -5896890196663757321,
+          "type": "CharacterAction_JiangBolao",
+          "guid": "d16387b0-5a34-4514-b098-8bf9806b31f7",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "d16387b0-5a34-4514-b098-8bf9806b31f7",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 0,
+            "Cloth_H": 0,
+            "Expression_H": 0,
+            "DynamicItem_H": 0,
+            "SubGroup_Adult": 2,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 0,
+            "DynamicItem_Adult": 0,
+            "Expression_Detective": 0,
+            "DynamicItem_Detective": 0,
+            "Expression_Army": 1,
+            "Expression_Brave": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle:514080509319867926",
+          "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+          "screenplay_path_id": -5122788567968479,
+          "order": 46,
+          "path_id": 514080509319867926,
+          "type": "BranchReturnAction",
+          "guid": "faefc88c-5c28-46a5-9461-139911fcfd8b",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "faefc88c-5c28-46a5-9461-139911fcfd8b"
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        }
+      ]
+    }
+  ],
+  "parse_errors": []
+}

@@ -1,0 +1,322 @@
+{
+  "bundles": 35,
+  "nodes_or_actions": 33508,
+  "edges": 33489,
+  "items": [
+    {
+      "bundle": "charactertest_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 51,
+      "edges": 50,
+      "parse_errors": 0,
+      "normalized_sha256": "2921c56e3c3051f787ab34a23b0fa29344dde9420da267e7b0120d420378fc0d"
+    },
+    {
+      "bundle": "escapingrulesforoneday_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 796,
+      "edges": 795,
+      "parse_errors": 0,
+      "normalized_sha256": "10b1ff20a8565abc908469582c2fa3f530d1822f5d5abf85eef8c152e8b32057"
+    },
+    {
+      "bundle": "linejbl1_obsolete_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 1084,
+      "edges": 1083,
+      "parse_errors": 0,
+      "normalized_sha256": "038d65690777baa9e41cb674e1983d36c0f3a434d4fac0dd2da48e9f024c8a55"
+    },
+    {
+      "bundle": "linejbl1_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 1256,
+      "edges": 1255,
+      "parse_errors": 0,
+      "normalized_sha256": "f73c643d6f64c318df8aa924e41b93b0e6837ccc65318cb5a5675400b406e509"
+    },
+    {
+      "bundle": "linejbl_chapter1_apart2bpart_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 301,
+      "edges": 300,
+      "parse_errors": 0,
+      "normalized_sha256": "18248fd840159bb053810b5a0ef1d33450c40b8cc154f1bfb83c586e5b7feed5"
+    },
+    {
+      "bundle": "linejbl_chapter1_apart_officer_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 143,
+      "edges": 142,
+      "parse_errors": 0,
+      "normalized_sha256": "0d6ceffc7d668bce0d7a47aa5cd6922fee1772b59d656cc0971f3a1407a6f75f"
+    },
+    {
+      "bundle": "linejbl_chapter1_bpart2apart_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 301,
+      "edges": 300,
+      "parse_errors": 0,
+      "normalized_sha256": "cd1e7e8300402ebb320fb4744c0e1b61f9d32a0010deb272088cb0ca64e1d684"
+    },
+    {
+      "bundle": "linejbl_chapter1_bpart_doctor_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 158,
+      "edges": 157,
+      "parse_errors": 0,
+      "normalized_sha256": "29ea55e05c1874a8b0f915ee48f2ab643595d11672c2456d1aeab6adf55e95db"
+    },
+    {
+      "bundle": "linejbl_chapter1_mainpart2_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 1133,
+      "edges": 1132,
+      "parse_errors": 0,
+      "normalized_sha256": "21990fa2079009ae308277ab51d9e3961396129a7670e474101ed5ecfbad54ac"
+    },
+    {
+      "bundle": "linejbl_chapter1_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 1552,
+      "edges": 1553,
+      "parse_errors": 0,
+      "normalized_sha256": "e5d4d9682e6196c2c1b8f1732d60582d7eb74c10e45bf90ed80a2373eb4bffc3"
+    },
+    {
+      "bundle": "linejbl_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 1256,
+      "edges": 1255,
+      "parse_errors": 0,
+      "normalized_sha256": "90a6721a9cecca031889f59c4d0b63667130768a86d840fbdc13dbdf18f1af79"
+    },
+    {
+      "bundle": "linejylock_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 6,
+      "edges": 5,
+      "parse_errors": 0,
+      "normalized_sha256": "9156d6f25e83ced700bac15c656d3254fc456a3440d142a91cdc952966760c88"
+    },
+    {
+      "bundle": "linella1_obsolete_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 1108,
+      "edges": 1107,
+      "parse_errors": 0,
+      "normalized_sha256": "02ebf5e4627534453c34c2c8a1c6438a93e57315e2469aec59ce72247498fe49"
+    },
+    {
+      "bundle": "linella1_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 1239,
+      "edges": 1238,
+      "parse_errors": 0,
+      "normalized_sha256": "edd42b17aedc6a632db7070ef50d28f6fe63db98a22b34b42c52279b8eb84bf3"
+    },
+    {
+      "bundle": "linella_chapter1_investigate_aboutera_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 26,
+      "edges": 25,
+      "parse_errors": 0,
+      "normalized_sha256": "1d3467c2e01ea428b0cd5bd7973400cd0920a75e1522641aebe59e7640b1a55b"
+    },
+    {
+      "bundle": "linella_chapter1_investigate_aboutlcorp_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 47,
+      "edges": 46,
+      "parse_errors": 0,
+      "normalized_sha256": "44991d046e0dc00068bd5a5606f11a659b51e3508da20a5447cf6c5adb9ef64f"
+    },
+    {
+      "bundle": "linella_chapter1_investigate_aboutplan_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 1352,
+      "edges": 1351,
+      "parse_errors": 0,
+      "normalized_sha256": "da1dfa89a029b06766dc90f73a9d7baf133769e2ecb2970eca670e7836cb3521"
+    },
+    {
+      "bundle": "linella_chapter1_investigate_aboutwcity_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 23,
+      "edges": 22,
+      "parse_errors": 0,
+      "normalized_sha256": "739e79ebeb1646e0399faf95996542aaf13f3060e1145d919ea3d08a12204b56"
+    },
+    {
+      "bundle": "linella_chapter1_remake_apart_jbl_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 352,
+      "edges": 351,
+      "parse_errors": 0,
+      "normalized_sha256": "fd21562485d450d72aa5a43f012a4d4bbc06ed775cc9650b279e42288fdb9652"
+    },
+    {
+      "bundle": "linella_chapter1_remake_bpart_yll_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 356,
+      "edges": 355,
+      "parse_errors": 0,
+      "normalized_sha256": "483836f6ba48bb9d2be7c548f742a4c80680958483e40eaeaf05850a02327023"
+    },
+    {
+      "bundle": "linella_chapter1_remake_mainpart1_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 1479,
+      "edges": 1480,
+      "parse_errors": 0,
+      "normalized_sha256": "bc142e2ffd55b014a7519dec1ad93593e63a0ad63387cf8029f1703e70d134ae"
+    },
+    {
+      "bundle": "linella_chapter1_remake_mainpart2_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 1084,
+      "edges": 1083,
+      "parse_errors": 0,
+      "normalized_sha256": "ff708def4d3637aaccc484c6d892119aa8a98116d8b1785ab5572cc0894928f2"
+    },
+    {
+      "bundle": "linella_cn_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 1373,
+      "edges": 1376,
+      "parse_errors": 0,
+      "normalized_sha256": "5b3d725d697e905c56ad1d3b94c5e24011cee56f88277b6f772551b44756e62d"
+    },
+    {
+      "bundle": "linella_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 1239,
+      "edges": 1238,
+      "parse_errors": 0,
+      "normalized_sha256": "b10045d3eda0d2458ed954f2df9fafb1433b74799d571fbb33fc22bcfea71020"
+    },
+    {
+      "bundle": "lineyll1_obsolete_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 1109,
+      "edges": 1108,
+      "parse_errors": 0,
+      "normalized_sha256": "94eee7403d3d55c9b8d71d0855b046eb15f1ec92d5d6ceee8f7ba310c48e2d2d"
+    },
+    {
+      "bundle": "lineyll1_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 1227,
+      "edges": 1226,
+      "parse_errors": 0,
+      "normalized_sha256": "bf3a35ebb507001f9b8162f7d48480f9bc17ee01b4a807b9e6ebaca0eca92756"
+    },
+    {
+      "bundle": "lineyll_chapter1_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 2934,
+      "edges": 2933,
+      "parse_errors": 0,
+      "normalized_sha256": "f0f87f8c86ab14c82a1abccb651388715a4048b21027a55cb63a541f28bec1fa"
+    },
+    {
+      "bundle": "lineyll_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 1249,
+      "edges": 1248,
+      "parse_errors": 0,
+      "normalized_sha256": "10002e934974640e4d223aa4334052e79263fe83d33e19fbb4c7646a8235fc34"
+    },
+    {
+      "bundle": "prelude_obsolete_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 2732,
+      "edges": 2735,
+      "parse_errors": 0,
+      "normalized_sha256": "ec1be7dd00c5db14d83da3233042c6f773ffb662939a4db09ebfbbe10ecceb06"
+    },
+    {
+      "bundle": "prelude_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 3095,
+      "edges": 3098,
+      "parse_errors": 0,
+      "normalized_sha256": "cbf7c4ee8035f6a98368c2215d333e2384ac46a8666b9b98c227d3d5c94da34c"
+    },
+    {
+      "bundle": "pv_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 54,
+      "edges": 53,
+      "parse_errors": 0,
+      "normalized_sha256": "035fcf4f80166e371a613ec7429dff7afef316b625a74c8fbe3848a835a75118"
+    },
+    {
+      "bundle": "stage_prelude1_dialoguetree.bundle",
+      "kind": "dialogue_tree_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 1867,
+      "edges": 1866,
+      "parse_errors": 0,
+      "normalized_sha256": "f857d549c8aeed0f9814ebea3bb02e4e3525ca5494766f06b76d8588053dee68"
+    },
+    {
+      "bundle": "testdialoguetree_dialoguetree.bundle",
+      "kind": "dialogue_tree_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 8,
+      "edges": 7,
+      "parse_errors": 0,
+      "normalized_sha256": "4ea6d357c26fbeeeac7f5c5af4e6fc8b84067e544dd38daa0cbbf7250cbee56e"
+    },
+    {
+      "bundle": "theconfessionpractice_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 722,
+      "edges": 721,
+      "parse_errors": 0,
+      "normalized_sha256": "71729317cfd6f1aa5d91f1ec9d48b91f50a36bb350a88dd67cd10748b0f95ca7"
+    },
+    {
+      "bundle": "thedayweescapedtogether_screenplays.bundle",
+      "kind": "screenplay_bundle",
+      "graphs_or_screenplays": 1,
+      "nodes_or_actions": 796,
+      "edges": 795,
+      "parse_errors": 0,
+      "normalized_sha256": "ecb836d7211b025b5a30372926d33d2af49f7e18045e24bac0de8d9127bfe3d7"
+    }
+  ]
+}

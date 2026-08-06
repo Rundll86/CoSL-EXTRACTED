@@ -1,0 +1,1200 @@
+{
+  "schema_version": 1,
+  "kind": "screenplay_bundle",
+  "bundle": "linella_chapter1_investigate_aboutwcity_screenplays.bundle",
+  "prefix_bytes_removed": 16,
+  "screenplays": [
+    {
+      "path_id": 4465438029258644831,
+      "name": "LineLLA_Chapter1_Investigate_AboutWCity",
+      "guid": "0ed48faf-4bc2-43be-855d-5937b7a47689",
+      "actions": [
+        {
+          "id": "linella_chapter1_investigate_aboutwcity_screenplays.bundle:12868714772236873",
+          "bundle": "linella_chapter1_investigate_aboutwcity_screenplays.bundle",
+          "screenplay_path_id": 4465438029258644831,
+          "order": 0,
+          "path_id": 12868714772236873,
+          "type": "DialogueAction",
+          "guid": "977480a6-e5c6-4994-bbfc-af69fd410b33",
+          "active": true,
+          "delay": -1.0,
+          "text": "我们现在在的这地方是叫W城吗？",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 130098400,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutwcity_screenplays.bundle:4031386165230036977",
+          "bundle": "linella_chapter1_investigate_aboutwcity_screenplays.bundle",
+          "screenplay_path_id": 4465438029258644831,
+          "order": 1,
+          "path_id": 4031386165230036977,
+          "type": "CharacterAction_LuoLuoai",
+          "guid": "8c4af3c2-856d-4e1a-9160-160d952e5868",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "8c4af3c2-856d-4e1a-9160-160d952e5868",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 0,
+            "Cloth_H": 0,
+            "Expression_H": 0,
+            "SubGroup_Adult": 0,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 1,
+            "Expression_Brave": 0,
+            "Expression_Detective": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutwcity_screenplays.bundle:2536108594846094739",
+          "bundle": "linella_chapter1_investigate_aboutwcity_screenplays.bundle",
+          "screenplay_path_id": 4465438029258644831,
+          "order": 2,
+          "path_id": 2536108594846094739,
+          "type": "DialogueAction",
+          "guid": "69062941-ad6f-42e8-bde5-f0efc1319a5a",
+          "active": true,
+          "delay": -1.0,
+          "text": "没错，刚才我和你提到过。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 3,
+              "path_id": -4840217188824566169
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130098500,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 3,
+              "path_id": -4840217188824566169
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutwcity_screenplays.bundle:2083276815755379609",
+          "bundle": "linella_chapter1_investigate_aboutwcity_screenplays.bundle",
+          "screenplay_path_id": 4465438029258644831,
+          "order": 3,
+          "path_id": 2083276815755379609,
+          "type": "DialogueAction",
+          "guid": "d8f1561c-c7cd-4a8e-bc38-7f25b57f6fab",
+          "active": true,
+          "delay": -1.0,
+          "text": "嗯……在我的印象里，我们居住的地方应该是个叫阔叶镇的小镇。",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 130098600,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutwcity_screenplays.bundle:-1599526243015077784",
+          "bundle": "linella_chapter1_investigate_aboutwcity_screenplays.bundle",
+          "screenplay_path_id": 4465438029258644831,
+          "order": 4,
+          "path_id": -1599526243015077784,
+          "type": "DialogueAction",
+          "guid": "3666cb4a-9fed-4628-aaae-2ca58ad4f7dd",
+          "active": true,
+          "delay": -1.0,
+          "text": "这地方和阔叶镇有什么关系吗？是未来的阔叶镇或者长木市……？",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 130098700,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutwcity_screenplays.bundle:931270287097678973",
+          "bundle": "linella_chapter1_investigate_aboutwcity_screenplays.bundle",
+          "screenplay_path_id": 4465438029258644831,
+          "order": 5,
+          "path_id": 931270287097678973,
+          "type": "DialogueAction",
+          "guid": "49f77f5e-3918-4475-a332-f04de1d8a3df",
+          "active": true,
+          "delay": -1.0,
+          "text": "这个我还真不清楚，这俩地方我都没听说过。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 4,
+              "path_id": -3916218622374444140
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130098800,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 4,
+              "path_id": -3916218622374444140
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutwcity_screenplays.bundle:-8444541483033727553",
+          "bundle": "linella_chapter1_investigate_aboutwcity_screenplays.bundle",
+          "screenplay_path_id": 4465438029258644831,
+          "order": 6,
+          "path_id": -8444541483033727553,
+          "type": "CharacterAction_YanLiaoliao",
+          "guid": "45b6e1bf-9b15-40d5-9c89-7c649a338300",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "45b6e1bf-9b15-40d5-9c89-7c649a338300",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 0,
+            "Cloth_H": 0,
+            "Expression_H": 0,
+            "SubGroup_Adult": 0,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 2,
+            "DynamicItem_Adult": 0,
+            "Expression_Detective": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutwcity_screenplays.bundle:4973028606397223672",
+          "bundle": "linella_chapter1_investigate_aboutwcity_screenplays.bundle",
+          "screenplay_path_id": 4465438029258644831,
+          "order": 7,
+          "path_id": 4973028606397223672,
+          "type": "DialogueAction",
+          "guid": "334a2d02-90ed-4038-840a-c93ee7b137ac",
+          "active": true,
+          "delay": -1.0,
+          "text": "大作家读的书比较多，说不定他知道？",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 4,
+              "path_id": -3916218622374444140
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130098900,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 4,
+              "path_id": -3916218622374444140
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutwcity_screenplays.bundle:-4240389036377978895",
+          "bundle": "linella_chapter1_investigate_aboutwcity_screenplays.bundle",
+          "screenplay_path_id": 4465438029258644831,
+          "order": 8,
+          "path_id": -4240389036377978895,
+          "type": "DialogueAction",
+          "guid": "3ccbc6eb-478b-441b-97c1-5a2b39d40aed",
+          "active": true,
+          "delay": -1.0,
+          "text": "嘛，让我查一查先……",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 1,
+              "path_id": -3931460406991956076
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130099000,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 1,
+              "path_id": -3931460406991956076
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutwcity_screenplays.bundle:-5349368313237047284",
+          "bundle": "linella_chapter1_investigate_aboutwcity_screenplays.bundle",
+          "screenplay_path_id": 4465438029258644831,
+          "order": 9,
+          "path_id": -5349368313237047284,
+          "type": "CharacterAction_JiangBolao",
+          "guid": "73b96755-0d79-4f56-bcd7-c88e42d1c521",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "73b96755-0d79-4f56-bcd7-c88e42d1c521",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 0,
+            "Cloth_H": 0,
+            "Expression_H": 0,
+            "DynamicItem_H": 0,
+            "SubGroup_Adult": 2,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 0,
+            "DynamicItem_Adult": 0,
+            "Expression_Detective": 0,
+            "DynamicItem_Detective": 0,
+            "Expression_Army": 3,
+            "Expression_Brave": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutwcity_screenplays.bundle:5894978987930766607",
+          "bundle": "linella_chapter1_investigate_aboutwcity_screenplays.bundle",
+          "screenplay_path_id": 4465438029258644831,
+          "order": 10,
+          "path_id": 5894978987930766607,
+          "type": "DialogueAction",
+          "guid": "a6ab3128-3704-49fb-9cc9-bd6e903b3fbf",
+          "active": true,
+          "delay": -1.0,
+          "text": "喔我查到了——长木市曾经是大夏南北交界线东部的一个城市，那确实是在W城现在的范围内。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 1,
+              "path_id": -3931460406991956076
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130099100,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 1,
+              "path_id": -3931460406991956076
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutwcity_screenplays.bundle:6723754326020545458",
+          "bundle": "linella_chapter1_investigate_aboutwcity_screenplays.bundle",
+          "screenplay_path_id": 4465438029258644831,
+          "order": 11,
+          "path_id": 6723754326020545458,
+          "type": "CharacterAction_YanLiaoliao",
+          "guid": "2fe588e3-944c-4989-9d84-237b222afdee",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "2fe588e3-944c-4989-9d84-237b222afdee",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 0,
+            "Cloth_H": 0,
+            "Expression_H": 0,
+            "SubGroup_Adult": 0,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 1,
+            "DynamicItem_Adult": 0,
+            "Expression_Detective": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutwcity_screenplays.bundle:6659359015582306125",
+          "bundle": "linella_chapter1_investigate_aboutwcity_screenplays.bundle",
+          "screenplay_path_id": 4465438029258644831,
+          "order": 12,
+          "path_id": 6659359015582306125,
+          "type": "DialogueAction",
+          "guid": "227d0c95-1dd0-4544-a33a-5e38ff79f09b",
+          "active": true,
+          "delay": -1.0,
+          "text": "原来如此……",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 130099200,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutwcity_screenplays.bundle:-2275289803744947951",
+          "bundle": "linella_chapter1_investigate_aboutwcity_screenplays.bundle",
+          "screenplay_path_id": 4465438029258644831,
+          "order": 13,
+          "path_id": -2275289803744947951,
+          "type": "CharacterAction_JiangBolao",
+          "guid": "ffcf3a03-e924-45bf-a89f-7a333d65dd0b",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "ffcf3a03-e924-45bf-a89f-7a333d65dd0b",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 0,
+            "Cloth_H": 0,
+            "Expression_H": 0,
+            "DynamicItem_H": 0,
+            "SubGroup_Adult": 2,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 0,
+            "DynamicItem_Adult": 0,
+            "Expression_Detective": 0,
+            "DynamicItem_Detective": 0,
+            "Expression_Army": 1,
+            "Expression_Brave": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutwcity_screenplays.bundle:8425026756378623074",
+          "bundle": "linella_chapter1_investigate_aboutwcity_screenplays.bundle",
+          "screenplay_path_id": 4465438029258644831,
+          "order": 14,
+          "path_id": 8425026756378623074,
+          "type": "DialogueAction",
+          "guid": "d5820a4a-8f15-4850-9729-7a465fa13f9f",
+          "active": true,
+          "delay": -1.0,
+          "text": "那这么说，这个叫W城的地方还是属于大夏这个国家咯？",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 130099300,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutwcity_screenplays.bundle:-2771029420588593761",
+          "bundle": "linella_chapter1_investigate_aboutwcity_screenplays.bundle",
+          "screenplay_path_id": 4465438029258644831,
+          "order": 15,
+          "path_id": -2771029420588593761,
+          "type": "DialogueAction",
+          "guid": "ccf64c4b-99e8-4ec5-8d38-583d2d11ff40",
+          "active": true,
+          "delay": -1.0,
+          "text": "嗯……那为什么会起一个英文名字？",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 130099400,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 2,
+                "m_PathID": -3147534218963176957
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutwcity_screenplays.bundle:838513452843170045",
+          "bundle": "linella_chapter1_investigate_aboutwcity_screenplays.bundle",
+          "screenplay_path_id": 4465438029258644831,
+          "order": 16,
+          "path_id": 838513452843170045,
+          "type": "DialogueAction",
+          "guid": "bda90bf0-ef35-40fb-b4b3-cf563a202bfb",
+          "active": true,
+          "delay": -1.0,
+          "text": "这件事解释起来有些复杂，我会尽量以简单的方式回答你。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 3,
+              "path_id": -4840217188824566169
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130099500,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 3,
+              "path_id": -4840217188824566169
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutwcity_screenplays.bundle:3585061163836753815",
+          "bundle": "linella_chapter1_investigate_aboutwcity_screenplays.bundle",
+          "screenplay_path_id": 4465438029258644831,
+          "order": 17,
+          "path_id": 3585061163836753815,
+          "type": "DialogueAction",
+          "guid": "f85f8b51-9278-4f12-8dc3-404513ccea84",
+          "active": true,
+          "delay": -1.0,
+          "text": "大约100年前，随着科技发展和自然环境逐渐恶化，世界上所有国家基本上都重新划分了行政区，W城就是在那...",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 3,
+              "path_id": -4840217188824566169
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130099600,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 3,
+              "path_id": -4840217188824566169
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutwcity_screenplays.bundle:-1459826175901369326",
+          "bundle": "linella_chapter1_investigate_aboutwcity_screenplays.bundle",
+          "screenplay_path_id": 4465438029258644831,
+          "order": 18,
+          "path_id": -1459826175901369326,
+          "type": "DialogueAction",
+          "guid": "b57efb6e-ff29-4397-9a73-dd1b5ab2cea2",
+          "active": true,
+          "delay": -1.0,
+          "text": "为了方便称呼和管理，大夏就以英文字母命名了重新划分的26个行政区。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 3,
+              "path_id": -4840217188824566169
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130099700,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 3,
+              "path_id": -4840217188824566169
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutwcity_screenplays.bundle:-3587912357403075152",
+          "bundle": "linella_chapter1_investigate_aboutwcity_screenplays.bundle",
+          "screenplay_path_id": 4465438029258644831,
+          "order": 19,
+          "path_id": -3587912357403075152,
+          "type": "DialogueAction",
+          "guid": "c9ce556c-3259-491a-aa4c-6988ed75dc83",
+          "active": true,
+          "delay": -1.0,
+          "text": "嗯，这倒是个很常见的设定，好歹也算是接触过一些近未来科幻作品的我也算是能理解。",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130099800,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutwcity_screenplays.bundle:7405669812264255512",
+          "bundle": "linella_chapter1_investigate_aboutwcity_screenplays.bundle",
+          "screenplay_path_id": 4465438029258644831,
+          "order": 20,
+          "path_id": 7405669812264255512,
+          "type": "DialogueAction",
+          "guid": "f4472210-0667-4e2e-98bf-88ea4c45497e",
+          "active": true,
+          "delay": -1.0,
+          "text": "看来那些科幻作者们还真猜到了未来会是什么样。",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130099900,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutwcity_screenplays.bundle:9109256786614145461",
+          "bundle": "linella_chapter1_investigate_aboutwcity_screenplays.bundle",
+          "screenplay_path_id": 4465438029258644831,
+          "order": 21,
+          "path_id": 9109256786614145461,
+          "type": "DialogueAction",
+          "guid": "f3ea2d31-90b0-4508-b63a-659ae87ed744",
+          "active": true,
+          "delay": -1.0,
+          "text": "让我想想，接下来该问什么……",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130100000,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutwcity_screenplays.bundle:4162974339283990120",
+          "bundle": "linella_chapter1_investigate_aboutwcity_screenplays.bundle",
+          "screenplay_path_id": 4465438029258644831,
+          "order": 22,
+          "path_id": 4162974339283990120,
+          "type": "BranchReturnAction",
+          "guid": "f9766fef-ada6-4c43-87ff-a032ee5fb1a7",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "f9766fef-ada6-4c43-87ff-a032ee5fb1a7"
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        }
+      ]
+    }
+  ],
+  "parse_errors": []
+}

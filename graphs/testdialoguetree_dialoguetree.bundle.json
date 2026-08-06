@@ -1,0 +1,635 @@
+{
+  "schema_version": 1,
+  "kind": "dialogue_tree_bundle",
+  "bundle": "testdialoguetree_dialoguetree.bundle",
+  "prefix_bytes_removed": 16,
+  "dialogue_trees": [
+    {
+      "path_id": -4065074863939532858,
+      "name": "TestDialogueTree",
+      "nodes": [
+        {
+          "path_id": 7234971892867018748,
+          "order": 0,
+          "type": "RootDialogue",
+          "guid": "e34e4197cf0370d4b90df360485e7fb3",
+          "description": "那么。\n你的愿望是什么？",
+          "position": {
+            "x": 173.0,
+            "y": 77.99996948242188
+          },
+          "parent": {
+            "file_id": 0,
+            "path_id": 0
+          },
+          "character": {
+            "file_id": 0,
+            "path_id": 0
+          },
+          "override_speaker_name": 1,
+          "speaker_name_id": 1,
+          "language_id": 20001,
+          "text": "那么。\n你的愿望是什么？",
+          "events": [],
+          "resource_references": [],
+          "child": null,
+          "children": [
+            {
+              "file_id": 0,
+              "path_id": -3508540424234582206
+            }
+          ],
+          "option_language_ids": [
+            6,
+            7
+          ],
+          "option_node_indices": [],
+          "managed_references": {
+            "version": 2,
+            "RefIds": []
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "path_id": -3508540424234582206,
+          "order": 1,
+          "type": "NormalDialogue",
+          "guid": "92c02eede43e9f445b7b564c0bef88bd",
+          "description": "只要在规则允许的范围内，...",
+          "position": {
+            "x": 164.0,
+            "y": 237.0
+          },
+          "parent": {
+            "file_id": 0,
+            "path_id": 0
+          },
+          "character": {
+            "file_id": 1,
+            "path_id": -3931460406991956076
+          },
+          "override_speaker_name": 0,
+          "speaker_name_id": 0,
+          "language_id": 20002,
+          "text": "只要在规则允许的范围内，我都会尽量帮你实现。",
+          "events": [],
+          "resource_references": [],
+          "child": {
+            "file_id": 0,
+            "path_id": 6618535931737317008
+          },
+          "children": [],
+          "option_language_ids": [],
+          "option_node_indices": [],
+          "managed_references": {
+            "version": 2,
+            "RefIds": []
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "path_id": 6618535931737317008,
+          "order": 2,
+          "type": "NormalDialogue",
+          "guid": "6c302e1519604f6449ab1e644a4ffc51",
+          "description": "毕竟，你可是……",
+          "position": {
+            "x": 164.0,
+            "y": 393.0
+          },
+          "parent": {
+            "file_id": 0,
+            "path_id": 0
+          },
+          "character": {
+            "file_id": 3,
+            "path_id": -4840217188824566169
+          },
+          "override_speaker_name": 0,
+          "speaker_name_id": 0,
+          "language_id": 20003,
+          "text": "毕竟，你可是……",
+          "events": [],
+          "resource_references": [],
+          "child": {
+            "file_id": 0,
+            "path_id": -843519089637987517
+          },
+          "children": [],
+          "option_language_ids": [],
+          "option_node_indices": [],
+          "managed_references": {
+            "version": 2,
+            "RefIds": []
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "path_id": -843519089637987517,
+          "order": 3,
+          "type": "NormalDialogue",
+          "guid": "92bf52da11fc2f543959b47b922e9fc5",
+          "description": "我明白了。",
+          "position": {
+            "x": 164.0,
+            "y": 569.0
+          },
+          "parent": {
+            "file_id": 0,
+            "path_id": 0
+          },
+          "character": {
+            "file_id": 2,
+            "path_id": -3916218622374444140
+          },
+          "override_speaker_name": 0,
+          "speaker_name_id": 0,
+          "language_id": 20004,
+          "text": "我明白了。",
+          "events": [],
+          "resource_references": [],
+          "child": {
+            "file_id": 0,
+            "path_id": -1413723195822328239
+          },
+          "children": [],
+          "option_language_ids": [],
+          "option_node_indices": [],
+          "managed_references": {
+            "version": 2,
+            "RefIds": []
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "path_id": -5184306270517669777,
+          "order": 4,
+          "type": "NormalDialogue",
+          "guid": "8e5cd380936183f48bb043cd43283de5",
+          "description": "我轻轻点了点头。/n那位...",
+          "position": {
+            "x": 708.4550170898438,
+            "y": 168.27000427246094
+          },
+          "parent": {
+            "file_id": 0,
+            "path_id": -1413723195822328239
+          },
+          "character": {
+            "file_id": 0,
+            "path_id": 0
+          },
+          "override_speaker_name": 0,
+          "speaker_name_id": 0,
+          "language_id": 20006,
+          "text": "我轻轻点了点头。/n那位撑着伞的红色身影笑了笑，像是我所熟知的那些舞台剧的旁白一样，念出了那个有些俗套的设定：",
+          "events": [],
+          "resource_references": [],
+          "child": {
+            "file_id": 0,
+            "path_id": 0
+          },
+          "children": [],
+          "option_language_ids": [],
+          "option_node_indices": [],
+          "managed_references": {
+            "version": 2,
+            "RefIds": []
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "path_id": -1131536204170593216,
+          "order": 5,
+          "type": "NormalDialogue",
+          "guid": "792f3cce8622cd64fb2e9319493700cf",
+          "description": "MissingStrin...",
+          "position": {
+            "x": 707.9999389648438,
+            "y": 337.0000305175781
+          },
+          "parent": {
+            "file_id": 0,
+            "path_id": -1413723195822328239
+          },
+          "character": {
+            "file_id": 0,
+            "path_id": 0
+          },
+          "override_speaker_name": 0,
+          "speaker_name_id": 0,
+          "language_id": 20007,
+          "text": "MissingString",
+          "events": [],
+          "resource_references": [],
+          "child": {
+            "file_id": 0,
+            "path_id": 0
+          },
+          "children": [],
+          "option_language_ids": [],
+          "option_node_indices": [],
+          "managed_references": {
+            "version": 2,
+            "RefIds": []
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "path_id": 9062475822051566574,
+          "order": 6,
+          "type": "NormalDialogue",
+          "guid": "d06cc483bd0d57143b11198553ba8d67",
+          "description": "MissingStrin...",
+          "position": {
+            "x": 708.0,
+            "y": 529.677490234375
+          },
+          "parent": {
+            "file_id": 0,
+            "path_id": -1413723195822328239
+          },
+          "character": {
+            "file_id": 0,
+            "path_id": 0
+          },
+          "override_speaker_name": 0,
+          "speaker_name_id": 0,
+          "language_id": 20008,
+          "text": "MissingString",
+          "events": [
+            {
+              "rid": 6094299918429847552,
+              "type": "BackgroundEvent",
+              "namespace": "LambdaCDM.NodeEditor.Runtime",
+              "assembly": "LambdaCDM",
+              "active": true,
+              "label": "Background",
+              "delay": -1.0,
+              "unique_id": 38414249,
+              "data": {
+                "Active": 1,
+                "Label": "Background",
+                "DisplayColor": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 1.0
+                },
+                "Delay": -1.0,
+                "UniqueId": 38414249,
+                "Owner": {
+                  "m_FileID": 0,
+                  "m_PathID": 9062475822051566574
+                },
+                "IsPlaying": 0,
+                "Mode": 0,
+                "BackgroundSprite": {
+                  "m_FileID": 0,
+                  "m_PathID": 0
+                },
+                "DisplayMode": 0,
+                "PlayDuration": 0.0,
+                "Ease": 1
+              },
+              "unresolved": false
+            },
+            {
+              "rid": 6094299918429847553,
+              "type": "HoldingPauseEvent",
+              "namespace": "LambdaCDM",
+              "assembly": "LambdaCDM",
+              "active": true,
+              "label": "HoldingPause",
+              "delay": -1.0,
+              "unique_id": -416505442,
+              "data": {
+                "Active": 1,
+                "Label": "HoldingPause",
+                "DisplayColor": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 1.0
+                },
+                "Delay": -1.0,
+                "UniqueId": -416505442,
+                "Owner": {
+                  "m_FileID": 0,
+                  "m_PathID": 9062475822051566574
+                },
+                "IsPlaying": 0
+              },
+              "unresolved": false
+            },
+            {
+              "rid": 6094299918429847554,
+              "type": "TextEvent",
+              "namespace": "LambdaCDM.NodeEditor.Runtime",
+              "assembly": "LambdaCDM",
+              "active": true,
+              "label": "Text",
+              "delay": -1.0,
+              "unique_id": 1367507981,
+              "data": {
+                "Active": 1,
+                "Label": "Text",
+                "DisplayColor": {
+                  "r": 0.0,
+                  "g": 0.0,
+                  "b": 0.0,
+                  "a": 1.0
+                },
+                "Delay": -1.0,
+                "UniqueId": 1367507981,
+                "Owner": {
+                  "m_FileID": 0,
+                  "m_PathID": 9062475822051566574
+                },
+                "IsPlaying": 0,
+                "DisplayMode": 0,
+                "TypingMode": 1,
+                "DurationPerChar": 0.05000000074505806,
+                "Ease": 1
+              },
+              "unresolved": false
+            }
+          ],
+          "resource_references": [],
+          "child": {
+            "file_id": 0,
+            "path_id": 0
+          },
+          "children": [],
+          "option_language_ids": [],
+          "option_node_indices": [],
+          "managed_references": {
+            "version": 2,
+            "RefIds": [
+              {
+                "rid": 6094299918429847552,
+                "type": {
+                  "class": "BackgroundEvent",
+                  "ns": "LambdaCDM.NodeEditor.Runtime",
+                  "asm": "LambdaCDM"
+                },
+                "data": {
+                  "Active": 1,
+                  "Label": "Background",
+                  "DisplayColor": {
+                    "r": 0.0,
+                    "g": 0.0,
+                    "b": 0.0,
+                    "a": 1.0
+                  },
+                  "Delay": -1.0,
+                  "UniqueId": 38414249,
+                  "Owner": {
+                    "m_FileID": 0,
+                    "m_PathID": 9062475822051566574
+                  },
+                  "IsPlaying": 0,
+                  "Mode": 0,
+                  "BackgroundSprite": {
+                    "m_FileID": 0,
+                    "m_PathID": 0
+                  },
+                  "DisplayMode": 0,
+                  "PlayDuration": 0.0,
+                  "Ease": 1
+                }
+              },
+              {
+                "rid": 6094299918429847553,
+                "type": {
+                  "class": "HoldingPauseEvent",
+                  "ns": "LambdaCDM",
+                  "asm": "LambdaCDM"
+                },
+                "data": {
+                  "Active": 1,
+                  "Label": "HoldingPause",
+                  "DisplayColor": {
+                    "r": 0.0,
+                    "g": 0.0,
+                    "b": 0.0,
+                    "a": 1.0
+                  },
+                  "Delay": -1.0,
+                  "UniqueId": -416505442,
+                  "Owner": {
+                    "m_FileID": 0,
+                    "m_PathID": 9062475822051566574
+                  },
+                  "IsPlaying": 0
+                }
+              },
+              {
+                "rid": 6094299918429847554,
+                "type": {
+                  "class": "TextEvent",
+                  "ns": "LambdaCDM.NodeEditor.Runtime",
+                  "asm": "LambdaCDM"
+                },
+                "data": {
+                  "Active": 1,
+                  "Label": "Text",
+                  "DisplayColor": {
+                    "r": 0.0,
+                    "g": 0.0,
+                    "b": 0.0,
+                    "a": 1.0
+                  },
+                  "Delay": -1.0,
+                  "UniqueId": 1367507981,
+                  "Owner": {
+                    "m_FileID": 0,
+                    "m_PathID": 9062475822051566574
+                  },
+                  "IsPlaying": 0,
+                  "DisplayMode": 0,
+                  "TypingMode": 1,
+                  "DurationPerChar": 0.05000000074505806,
+                  "Ease": 1
+                }
+              }
+            ]
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "path_id": -1413723195822328239,
+          "order": 7,
+          "type": "BranchDialogue",
+          "guid": "63fbf8301cd84ae49acec988594a189b",
+          "description": "提示",
+          "position": {
+            "x": 446.0,
+            "y": 324.0
+          },
+          "parent": {
+            "file_id": 0,
+            "path_id": -843519089637987517
+          },
+          "character": {
+            "file_id": 0,
+            "path_id": 0
+          },
+          "override_speaker_name": 0,
+          "speaker_name_id": 0,
+          "language_id": 1,
+          "text": "提示",
+          "events": [],
+          "resource_references": [],
+          "child": null,
+          "children": [
+            {
+              "file_id": 0,
+              "path_id": -5184306270517669777
+            },
+            {
+              "file_id": 0,
+              "path_id": -1131536204170593216
+            },
+            {
+              "file_id": 0,
+              "path_id": 9062475822051566574
+            }
+          ],
+          "option_language_ids": [
+            1,
+            2,
+            3
+          ],
+          "option_node_indices": [
+            0,
+            0,
+            0
+          ],
+          "managed_references": {
+            "version": 2,
+            "RefIds": []
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        }
+      ],
+      "edges": [
+        {
+          "graph_kind": "dialogue_tree",
+          "bundle": "testdialoguetree_dialoguetree.bundle",
+          "graph_path_id": -4065074863939532858,
+          "source_path_id": 7234971892867018748,
+          "target_path_id": -3508540424234582206,
+          "edge_type": "option",
+          "option_language_id": 6,
+          "condition": "",
+          "external_file_id": 0,
+          "target_bundle": "testdialoguetree_dialoguetree.bundle",
+          "dangling": false
+        },
+        {
+          "graph_kind": "dialogue_tree",
+          "bundle": "testdialoguetree_dialoguetree.bundle",
+          "graph_path_id": -4065074863939532858,
+          "source_path_id": -3508540424234582206,
+          "target_path_id": 6618535931737317008,
+          "edge_type": "child",
+          "option_language_id": "",
+          "condition": "",
+          "external_file_id": 0,
+          "target_bundle": "testdialoguetree_dialoguetree.bundle",
+          "dangling": false
+        },
+        {
+          "graph_kind": "dialogue_tree",
+          "bundle": "testdialoguetree_dialoguetree.bundle",
+          "graph_path_id": -4065074863939532858,
+          "source_path_id": 6618535931737317008,
+          "target_path_id": -843519089637987517,
+          "edge_type": "child",
+          "option_language_id": "",
+          "condition": "",
+          "external_file_id": 0,
+          "target_bundle": "testdialoguetree_dialoguetree.bundle",
+          "dangling": false
+        },
+        {
+          "graph_kind": "dialogue_tree",
+          "bundle": "testdialoguetree_dialoguetree.bundle",
+          "graph_path_id": -4065074863939532858,
+          "source_path_id": -843519089637987517,
+          "target_path_id": -1413723195822328239,
+          "edge_type": "child",
+          "option_language_id": "",
+          "condition": "",
+          "external_file_id": 0,
+          "target_bundle": "testdialoguetree_dialoguetree.bundle",
+          "dangling": false
+        },
+        {
+          "graph_kind": "dialogue_tree",
+          "bundle": "testdialoguetree_dialoguetree.bundle",
+          "graph_path_id": -4065074863939532858,
+          "source_path_id": -1413723195822328239,
+          "target_path_id": -5184306270517669777,
+          "edge_type": "option",
+          "option_language_id": 1,
+          "condition": "",
+          "external_file_id": 0,
+          "target_bundle": "testdialoguetree_dialoguetree.bundle",
+          "dangling": false
+        },
+        {
+          "graph_kind": "dialogue_tree",
+          "bundle": "testdialoguetree_dialoguetree.bundle",
+          "graph_path_id": -4065074863939532858,
+          "source_path_id": -1413723195822328239,
+          "target_path_id": -1131536204170593216,
+          "edge_type": "option",
+          "option_language_id": 2,
+          "condition": "",
+          "external_file_id": 0,
+          "target_bundle": "testdialoguetree_dialoguetree.bundle",
+          "dangling": false
+        },
+        {
+          "graph_kind": "dialogue_tree",
+          "bundle": "testdialoguetree_dialoguetree.bundle",
+          "graph_path_id": -4065074863939532858,
+          "source_path_id": -1413723195822328239,
+          "target_path_id": 9062475822051566574,
+          "edge_type": "option",
+          "option_language_id": 3,
+          "condition": "",
+          "external_file_id": 0,
+          "target_bundle": "testdialoguetree_dialoguetree.bundle",
+          "dangling": false
+        }
+      ],
+      "integrity": {
+        "root_candidates": [
+          7234971892867018748
+        ],
+        "isolated_nodes": [],
+        "dangling_edges": [],
+        "option_count_mismatches": [
+          {
+            "path_id": 7234971892867018748,
+            "children_count": 1,
+            "option_language_id_count": 2,
+            "option_node_index_count": 0
+          }
+        ]
+      }
+    }
+  ],
+  "parse_errors": []
+}

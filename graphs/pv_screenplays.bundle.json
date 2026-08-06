@@ -1,0 +1,2879 @@
+{
+  "schema_version": 1,
+  "kind": "screenplay_bundle",
+  "bundle": "pv_screenplays.bundle",
+  "prefix_bytes_removed": 16,
+  "screenplays": [
+    {
+      "path_id": -1991847560905936907,
+      "name": "PV",
+      "guid": "4f32dc6b-439e-414f-871f-2ff21aa4f98a",
+      "actions": [
+        {
+          "id": "pv_screenplays.bundle:7187497128892840676",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 0,
+          "path_id": 7187497128892840676,
+          "type": "StageTagAction",
+          "guid": "bb8e9a2e-7ca5-4989-8ec1-94c0ee18a7f4",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "bb8e9a2e-7ca5-4989-8ec1-94c0ee18a7f4",
+            "StageTag": 1
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:589089930815349159",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 1,
+          "path_id": 589089930815349159,
+          "type": "DialogueAction",
+          "guid": "7a1be6e4-6d46-44be-bda4-3718d300720b",
+          "active": true,
+          "delay": -1.0,
+          "text": "……停、停、停！",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 990000100,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-4824605369330549362",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 2,
+          "path_id": -4824605369330549362,
+          "type": "BackgroundAction",
+          "guid": "e618374e-c2f3-4335-b734-e1c9a987b4db",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "BackgroundSprite",
+              "file_id": 8,
+              "path_id": 1155509796144139323
+            }
+          ],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "e618374e-c2f3-4335-b734-e1c9a987b4db",
+            "Mode": 0,
+            "BackgroundSprite": {
+              "m_FileID": 8,
+              "m_PathID": 1155509796144139323
+            },
+            "DisplayMode": 1,
+            "Effect": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "DrawMode": 0,
+            "Size": {
+              "x": 1.0,
+              "y": 1.0
+            },
+            "Target": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-93187491725973268",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 3,
+          "path_id": -93187491725973268,
+          "type": "CharacterAction_JiYe",
+          "guid": "8012a0fe-1ac4-457a-a725-82e30e87310e",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "8012a0fe-1ac4-457a-a725-82e30e87310e",
+            "Operation": 0,
+            "ModifyPosition": 1,
+            "UsePresentPosition": 0,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 1.399999976158142,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 1,
+            "Duration": 1.5,
+            "Ease": 1,
+            "CharacterGroup": 1,
+            "Cloth_H": 1,
+            "Expression_H": 5,
+            "DynamicItem_H": 0,
+            "SubGroup_Adult": 0,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 0,
+            "DynamicItem_Adult": 0,
+            "Expression_AC": 0,
+            "DynamicItem_AC": 0,
+            "Expression_Army": 0,
+            "Expression_Brave": 0,
+            "Expression_Detective": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:1934138952595738332",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 4,
+          "path_id": 1934138952595738332,
+          "type": "CharacterAction_YanLiaoliao",
+          "guid": "76b54906-1a3e-4856-8db4-454fc0fca64b",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "76b54906-1a3e-4856-8db4-454fc0fca64b",
+            "Operation": 0,
+            "ModifyPosition": 1,
+            "UsePresentPosition": 0,
+            "PresentPosition": 1,
+            "Position": {
+              "x": -2.450000047683716,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 1,
+            "Duration": 1.5,
+            "Ease": 1,
+            "CharacterGroup": 1,
+            "Cloth_H": 1,
+            "Expression_H": 6,
+            "SubGroup_Adult": 0,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 0,
+            "DynamicItem_Adult": 0,
+            "Expression_Detective": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-4634361529018509415",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 5,
+          "path_id": -4634361529018509415,
+          "type": "DialogueAction",
+          "guid": "39268483-d1ab-4ed0-bc11-adaacaf4c73b",
+          "active": true,
+          "delay": -1.0,
+          "text": "我再说一遍，虽然咱们去年的那次表演确实很成功……",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 990000200,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 9,
+                "m_PathID": -4374238833649918760
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-3879734696845567773",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 6,
+          "path_id": -3879734696845567773,
+          "type": "Effect_RainyWindowAction",
+          "guid": "9bd0515f-8f77-4133-9457-ceb91644c691",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "Prefab",
+              "file_id": 5,
+              "path_id": 9205742109231995233
+            }
+          ],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "9bd0515f-8f77-4133-9457-ceb91644c691",
+            "Operation": 0,
+            "Prefab": {
+              "m_FileID": 5,
+              "m_PathID": 9205742109231995233
+            },
+            "Size": 5.0,
+            "Distortion": 1.0,
+            "Blur": 0.0,
+            "Duration": 0.0,
+            "Ease": 1
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-6651808206769111404",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 7,
+          "path_id": -6651808206769111404,
+          "type": "DialogueAction",
+          "guid": "923ecf87-bc2f-452c-9d2a-db6e0606e165",
+          "active": true,
+          "delay": -1.0,
+          "text": "但是你俩也不用每次开会在这里忆往昔峥嵘岁月稠吧，很耽误正事哎。",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 990000300,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:564193881857641021",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 8,
+          "path_id": 564193881857641021,
+          "type": "CharacterAction_JiYe",
+          "guid": "b1911418-86c0-430d-8b87-400e7b7dc7f3",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "b1911418-86c0-430d-8b87-400e7b7dc7f3",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 1,
+            "Cloth_H": 0,
+            "Expression_H": 2,
+            "DynamicItem_H": 0,
+            "SubGroup_Adult": 0,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 0,
+            "DynamicItem_Adult": 0,
+            "Expression_AC": 0,
+            "DynamicItem_AC": 0,
+            "Expression_Army": 0,
+            "Expression_Brave": 0,
+            "Expression_Detective": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:5697784535415050064",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 9,
+          "path_id": 5697784535415050064,
+          "type": "Effect_RainyWindowAction",
+          "guid": "1ee71658-2d4b-4de2-b3dc-b38e39495b4c",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "Prefab",
+              "file_id": 5,
+              "path_id": 9205742109231995233
+            }
+          ],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "1ee71658-2d4b-4de2-b3dc-b38e39495b4c",
+            "Operation": 1,
+            "Prefab": {
+              "m_FileID": 5,
+              "m_PathID": 9205742109231995233
+            },
+            "Size": 5.0,
+            "Distortion": 2.0,
+            "Blur": 0.0,
+            "Duration": 2.0,
+            "Ease": 1
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-5059463938857919354",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 10,
+          "path_id": -5059463938857919354,
+          "type": "DialogueAction",
+          "guid": "2011d0cc-a00d-4aae-bedc-abc49bd191ef",
+          "active": true,
+          "delay": -1.0,
+          "text": "哎呀哎呀，咱们的社团活动时间有那么——长——",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 7,
+              "path_id": 5068238856806089863
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 990000400,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 7,
+              "path_id": 5068238856806089863
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-7792396092254689737",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 11,
+          "path_id": -7792396092254689737,
+          "type": "Effect_RainyWindowAction",
+          "guid": "50bf1a11-8608-400e-a39b-c95a95124c9b",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "Prefab",
+              "file_id": 5,
+              "path_id": 9205742109231995233
+            }
+          ],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "50bf1a11-8608-400e-a39b-c95a95124c9b",
+            "Operation": 1,
+            "Prefab": {
+              "m_FileID": 5,
+              "m_PathID": 9205742109231995233
+            },
+            "Size": 5.0,
+            "Distortion": 2.0,
+            "Blur": 0.5,
+            "Duration": 2.0,
+            "Ease": 1
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-1804152829593092505",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 12,
+          "path_id": -1804152829593092505,
+          "type": "DialogueAction",
+          "guid": "9b03a39a-45e5-4569-b451-39a7b4e06bdd",
+          "active": true,
+          "delay": -1.0,
+          "text": "跑题两句又不会耽误什么时间啦。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 7,
+              "path_id": 5068238856806089863
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 990000500,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 7,
+              "path_id": 5068238856806089863
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-4727817827116923747",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 13,
+          "path_id": -4727817827116923747,
+          "type": "CharacterAction_YanLiaoliao",
+          "guid": "d7388bdb-afd4-41c3-bb03-3af4c734fe3e",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "d7388bdb-afd4-41c3-bb03-3af4c734fe3e",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 1,
+            "Cloth_H": 0,
+            "Expression_H": 1,
+            "SubGroup_Adult": 0,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 0,
+            "DynamicItem_Adult": 0,
+            "Expression_Detective": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:3617812462923614049",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 14,
+          "path_id": 3617812462923614049,
+          "type": "Effect_RainyWindowAction",
+          "guid": "4c37d9df-bd21-4c04-b6d5-15ecca045cad",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "Prefab",
+              "file_id": 5,
+              "path_id": 9205742109231995233
+            }
+          ],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "4c37d9df-bd21-4c04-b6d5-15ecca045cad",
+            "Operation": 2,
+            "Prefab": {
+              "m_FileID": 5,
+              "m_PathID": 9205742109231995233
+            },
+            "Size": 5.0,
+            "Distortion": 1.0,
+            "Blur": 0.0,
+            "Duration": 0.0,
+            "Ease": 1
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:4429761021475021076",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 15,
+          "path_id": 4429761021475021076,
+          "type": "DialogueAction",
+          "guid": "fad63ff4-da91-483b-833b-183b4da5ec38",
+          "active": true,
+          "delay": -1.0,
+          "text": "就是，你老是整得那么严肃干啥。不知道的还以为我们是什么正经话剧团呢。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 1,
+              "path_id": -3916218622374444140
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 990000600,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 1,
+              "path_id": -3916218622374444140
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:5767233213462674330",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 16,
+          "path_id": 5767233213462674330,
+          "type": "DialogueAction",
+          "guid": "a3246cdf-cde0-439b-a356-53190c493a7d",
+          "active": true,
+          "delay": -1.0,
+          "text": "……算了，懒得骂你们。",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 990000700,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-7378056496161740189",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 17,
+          "path_id": -7378056496161740189,
+          "type": "CharacterAction_JiangBolao",
+          "guid": "4094e550-6186-47cb-ac27-05cdf8448f21",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "4094e550-6186-47cb-ac27-05cdf8448f21",
+            "Operation": 0,
+            "ModifyPosition": 1,
+            "UsePresentPosition": 0,
+            "PresentPosition": 1,
+            "Position": {
+              "x": -6.349999904632568,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 1,
+            "Duration": 1.5,
+            "Ease": 1,
+            "CharacterGroup": 1,
+            "Cloth_H": 1,
+            "Expression_H": 2,
+            "DynamicItem_H": 1,
+            "SubGroup_Adult": 0,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 0,
+            "DynamicItem_Adult": 0,
+            "Expression_Detective": 0,
+            "DynamicItem_Detective": 0,
+            "Expression_Army": 0,
+            "Expression_Brave": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:3520505513509969853",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 18,
+          "path_id": 3520505513509969853,
+          "type": "CharacterAction_LuoLuoai",
+          "guid": "2f3fb8e4-d332-4fc0-b481-c66fb5c61306",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "2f3fb8e4-d332-4fc0-b481-c66fb5c61306",
+            "Operation": 0,
+            "ModifyPosition": 1,
+            "UsePresentPosition": 0,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 6.5,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 1,
+            "Duration": 1.5,
+            "Ease": 1,
+            "CharacterGroup": 1,
+            "Cloth_H": 1,
+            "Expression_H": 4,
+            "SubGroup_Adult": 0,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 0,
+            "Expression_Brave": 0,
+            "Expression_Detective": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-5320600180672185526",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 19,
+          "path_id": -5320600180672185526,
+          "type": "DialogueAction",
+          "guid": "4cdc6378-7d25-4f74-bf28-8137309a7da0",
+          "active": true,
+          "delay": -1.0,
+          "text": "嘛嘛，钱老板不是说今天有很重要的事情要宣布嘛，你们就安静一点啦。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 2,
+              "path_id": -3931460406991956076
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 990000800,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 2,
+              "path_id": -3931460406991956076
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-2836460170592115182",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 20,
+          "path_id": -2836460170592115182,
+          "type": "DialogueAction",
+          "guid": "90dd75db-54f9-4764-b6ef-a01e7465d5c4",
+          "active": true,
+          "delay": -1.0,
+          "text": "两位最好还是有一点平时已经给大家添了很多麻烦的自觉吧。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 10,
+              "path_id": -4840217188824566169
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 990000900,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 10,
+              "path_id": -4840217188824566169
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:8092048457896485162",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 21,
+          "path_id": 8092048457896485162,
+          "type": "DialogueAction",
+          "guid": "4efc1098-82b1-4559-9248-3a22041c2795",
+          "active": true,
+          "delay": -1.0,
+          "text": "平时倒是无所谓，至少在开会的时候配合一下钱禄财。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 10,
+              "path_id": -4840217188824566169
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 990001000,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 10,
+              "path_id": -4840217188824566169
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:8841602784604313283",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 22,
+          "path_id": 8841602784604313283,
+          "type": "CharacterAction_JiangBolao",
+          "guid": "6006d62b-5298-4b5e-aef3-96d222047d23",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "6006d62b-5298-4b5e-aef3-96d222047d23",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 1,
+            "Cloth_H": 0,
+            "Expression_H": 1,
+            "DynamicItem_H": 1,
+            "SubGroup_Adult": 0,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 0,
+            "DynamicItem_Adult": 0,
+            "Expression_Detective": 0,
+            "DynamicItem_Detective": 0,
+            "Expression_Army": 0,
+            "Expression_Brave": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-2875602078888977131",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 23,
+          "path_id": -2875602078888977131,
+          "type": "CharacterAction_LuoLuoai",
+          "guid": "82d1c7ca-95ae-46d9-856a-d87890e4bec1",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "82d1c7ca-95ae-46d9-856a-d87890e4bec1",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 1,
+            "Cloth_H": 0,
+            "Expression_H": 1,
+            "SubGroup_Adult": 0,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 0,
+            "Expression_Brave": 0,
+            "Expression_Detective": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:3062506699439834435",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 24,
+          "path_id": 3062506699439834435,
+          "type": "CharacterAction_JiYe",
+          "guid": "334c7c33-8bf8-4ade-8bae-662ff1b666f1",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "334c7c33-8bf8-4ade-8bae-662ff1b666f1",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 1,
+            "Cloth_H": 0,
+            "Expression_H": 1,
+            "DynamicItem_H": 0,
+            "SubGroup_Adult": 0,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 0,
+            "DynamicItem_Adult": 0,
+            "Expression_AC": 0,
+            "DynamicItem_AC": 0,
+            "Expression_Army": 0,
+            "Expression_Brave": 0,
+            "Expression_Detective": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-7861938080306388072",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 25,
+          "path_id": -7861938080306388072,
+          "type": "DialogueAction",
+          "guid": "ad1da14d-c3ab-437b-afff-0a6810ca90e6",
+          "active": true,
+          "delay": -1.0,
+          "text": "咳咳！好了，言归正传。",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 990001100,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 4,
+                "m_PathID": -3942447434014718076
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-6353091884836001501",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 26,
+          "path_id": -6353091884836001501,
+          "type": "SpriteAction",
+          "guid": "d028a484-9e5e-47e3-bb9c-fcc463e2b759",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "Sprite",
+              "file_id": 6,
+              "path_id": -1788319212388891895
+            }
+          ],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "d028a484-9e5e-47e3-bb9c-fcc463e2b759",
+            "Sprite": {
+              "m_FileID": 6,
+              "m_PathID": -1788319212388891895
+            },
+            "Key": "",
+            "Operation": 0,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "Scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "FlipX": 0,
+            "OrderInLayer": 0,
+            "SpriteMaskInteraction": 0,
+            "DisplayMode": 1,
+            "Duration": 1.0,
+            "Ease": 1,
+            "MaskData": {
+              "Enabled": 0,
+              "AlphaCutoff": 0.0,
+              "CustomRange": 0,
+              "FrontLayer": 0,
+              "FrontOrderInLayer": 0,
+              "BackLayer": 0,
+              "BackOrderInLayer": 0
+            },
+            "LightColliderData": {
+              "Enabled": 0,
+              "MaskType": 0,
+              "MaskLit": 0
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-6665143304667671315",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 27,
+          "path_id": -6665143304667671315,
+          "type": "DialogueAction",
+          "guid": "911443c3-461d-4872-9fc5-ff16ee454249",
+          "active": true,
+          "delay": -1.0,
+          "text": "今天真理老师说，有人给我们寄来了这个……",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 990001200,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-1590089001151805804",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 28,
+          "path_id": -1590089001151805804,
+          "type": "CharacterAction_JiYe",
+          "guid": "3963d0ae-77c3-47e9-ab34-d186f5d2b953",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "3963d0ae-77c3-47e9-ab34-d186f5d2b953",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 1,
+            "Cloth_H": 0,
+            "Expression_H": 2,
+            "DynamicItem_H": 0,
+            "SubGroup_Adult": 0,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 0,
+            "DynamicItem_Adult": 0,
+            "Expression_AC": 0,
+            "DynamicItem_AC": 0,
+            "Expression_Army": 0,
+            "Expression_Brave": 0,
+            "Expression_Detective": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:7200033111085869086",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 29,
+          "path_id": 7200033111085869086,
+          "type": "DialogueAction",
+          "guid": "2fee9f2b-15df-4d51-b6b1-4a7d818f5c4d",
+          "active": true,
+          "delay": -1.0,
+          "text": "信？是不是那个……",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 7,
+              "path_id": 5068238856806089863
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 990001300,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 7,
+              "path_id": 5068238856806089863
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-8385931778067153107",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 30,
+          "path_id": -8385931778067153107,
+          "type": "SoundAction",
+          "guid": "794bb268-5eb5-438d-98b2-16e3f2829f06",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "AudioClip",
+              "file_id": 3,
+              "path_id": 4761501830013755484
+            }
+          ],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "794bb268-5eb5-438d-98b2-16e3f2829f06",
+            "Mode": 0,
+            "AudioClip": {
+              "m_FileID": 3,
+              "m_PathID": 4761501830013755484
+            },
+            "SoundInOptions": {
+              "Initialized": 1,
+              "MmSoundManagerTrack": 0,
+              "AudioGroup": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "Loop": 0,
+              "Volume": 0.5,
+              "Pitch": 1.0,
+              "ID": 0,
+              "Fade": 0,
+              "FadeInitialVolume": 0.0,
+              "FadeDuration": 1.0,
+              "FadeTween": {
+                "MMTweenDefinitionType": 0,
+                "MMTweenCurve": 4,
+                "Curve": {
+                  "m_Curve": [
+                    {
+                      "time": 0.0,
+                      "value": 0.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 1.0,
+                      "inSlope": 0.0,
+                      "outSlope": 0.0,
+                      "weightedMode": 0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0
+                    }
+                  ],
+                  "m_PreInfinity": 2,
+                  "m_PostInfinity": 2,
+                  "m_RotationOrder": 4
+                },
+                "Initialized": 0
+              },
+              "Persistent": 0,
+              "RecycleAudioSource": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "PlaybackTime": 0.0,
+              "PlaybackDuration": 0.0,
+              "PanStereo": 0.0,
+              "SpatialBlend": 0.0,
+              "AttachToTransform": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "SoloSingleTrack": 0,
+              "SoloAllTracks": 0,
+              "AutoUnSoloOnEnd": 0,
+              "BypassEffects": 0,
+              "BypassListenerEffects": 0,
+              "BypassReverbZones": 0,
+              "Priority": 128,
+              "ReverbZoneMix": 1.0,
+              "DopplerLevel": 1.0,
+              "Location": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "Spread": 0,
+              "RolloffMode": 0,
+              "MinDistance": 1.0,
+              "MaxDistance": 500.0,
+              "DoNotAutoRecycleIfNotDonePlaying": 1,
+              "UseCustomRolloffCurve": 0,
+              "CustomRolloffCurve": {
+                "m_Curve": [],
+                "m_PreInfinity": 2,
+                "m_PostInfinity": 2,
+                "m_RotationOrder": 4
+              },
+              "UseSpatialBlendCurve": 0,
+              "SpatialBlendCurve": {
+                "m_Curve": [],
+                "m_PreInfinity": 2,
+                "m_PostInfinity": 2,
+                "m_RotationOrder": 4
+              },
+              "UseReverbZoneMixCurve": 0,
+              "ReverbZoneMixCurve": {
+                "m_Curve": [],
+                "m_PreInfinity": 2,
+                "m_PostInfinity": 2,
+                "m_RotationOrder": 4
+              },
+              "UseSpreadCurve": 0,
+              "SpreadCurve": {
+                "m_Curve": [],
+                "m_PreInfinity": 2,
+                "m_PostInfinity": 2,
+                "m_RotationOrder": 4
+              }
+            },
+            "IgnoreAwait": 0,
+            "SoundOutOptions": {
+              "ID": 0,
+              "Fade": 0,
+              "FadeDuration": 0.0,
+              "FadeEase": 1
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:4939049707608919975",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 31,
+          "path_id": 4939049707608919975,
+          "type": "SpriteAction",
+          "guid": "6b9026c6-d96f-4eb0-9f61-d20c7a170a24",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "Sprite",
+              "file_id": 6,
+              "path_id": -1788319212388891895
+            }
+          ],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "6b9026c6-d96f-4eb0-9f61-d20c7a170a24",
+            "Sprite": {
+              "m_FileID": 6,
+              "m_PathID": -1788319212388891895
+            },
+            "Key": "",
+            "Operation": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "Scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "FlipX": 0,
+            "OrderInLayer": 0,
+            "SpriteMaskInteraction": 0,
+            "DisplayMode": 1,
+            "Duration": 1.0,
+            "Ease": 1,
+            "MaskData": {
+              "Enabled": 0,
+              "AlphaCutoff": 0.0,
+              "CustomRange": 0,
+              "FrontLayer": 0,
+              "FrontOrderInLayer": 0,
+              "BackLayer": 0,
+              "BackOrderInLayer": 0
+            },
+            "LightColliderData": {
+              "Enabled": 0,
+              "MaskType": 0,
+              "MaskLit": 0
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:5573025164789163861",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 32,
+          "path_id": 5573025164789163861,
+          "type": "SpriteAction",
+          "guid": "c3bc8c16-2207-4c97-a041-df690e185df7",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "Sprite",
+              "file_id": 6,
+              "path_id": -5472855466702604286
+            }
+          ],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "c3bc8c16-2207-4c97-a041-df690e185df7",
+            "Sprite": {
+              "m_FileID": 6,
+              "m_PathID": -5472855466702604286
+            },
+            "Key": "",
+            "Operation": 0,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "Rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "Scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            },
+            "FlipX": 0,
+            "OrderInLayer": 0,
+            "SpriteMaskInteraction": 0,
+            "DisplayMode": 1,
+            "Duration": 1.0,
+            "Ease": 1,
+            "MaskData": {
+              "Enabled": 0,
+              "AlphaCutoff": 0.0,
+              "CustomRange": 0,
+              "FrontLayer": 0,
+              "FrontOrderInLayer": 0,
+              "BackLayer": 0,
+              "BackOrderInLayer": 0
+            },
+            "LightColliderData": {
+              "Enabled": 0,
+              "MaskType": 0,
+              "MaskLit": 0
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-7054957321577373435",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 33,
+          "path_id": -7054957321577373435,
+          "type": "DialogueAction",
+          "guid": "60269e67-ae74-47ca-a70e-f7291b5044c9",
+          "active": true,
+          "delay": -1.0,
+          "text": "让我看看……",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 990001400,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-8760678011623510495",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 34,
+          "path_id": -8760678011623510495,
+          "type": "DialogueAction",
+          "guid": "6f976fd8-0de0-43a4-86b2-6e47d4d8a809",
+          "active": true,
+          "delay": -1.0,
+          "text": "……",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 990001500,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-814521191325397522",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 35,
+          "path_id": -814521191325397522,
+          "type": "DialogueAction",
+          "guid": "025568a6-5517-47d4-a8d6-c7b7bf6f2f75",
+          "active": true,
+          "delay": -1.0,
+          "text": "亲爱的钱禄财同学，你好。我们很高兴能收到您与您所代表的长木市阔叶镇第二中学话剧部投递的申请……",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 990001600,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-2049343578828194265",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 36,
+          "path_id": -2049343578828194265,
+          "type": "DialogueAction",
+          "guid": "098b2df5-3c61-469a-a671-a5acbe593d5a",
+          "active": true,
+          "delay": -1.0,
+          "text": "因此，我们慕名观赏了各位在去年长木市暑期晚会上表演的节目，其中……",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 990001700,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:6577490103494813899",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 37,
+          "path_id": 6577490103494813899,
+          "type": "DialogueAction",
+          "guid": "cfaa38ec-235a-485c-ad9a-6417d1f6c4a0",
+          "active": true,
+          "delay": -1.0,
+          "text": "……然后在我们的舞台上，发挥出各位最精彩的表现吧。",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 990001800,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 12,
+                "m_PathID": 1272489021540470873
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-5049931607522834363",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 38,
+          "path_id": -5049931607522834363,
+          "type": "DialogueAction",
+          "guid": "11747d8f-3102-454d-a773-9edc2154fe04",
+          "active": true,
+          "delay": -1.0,
+          "text": "白林省话剧团，高中暑期汇演组委会……",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 990001900,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:8705739278378944206",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 39,
+          "path_id": 8705739278378944206,
+          "type": "CharacterAction_YanLiaoliao",
+          "guid": "c6197c71-0740-446b-98ca-a18e60247848",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "c6197c71-0740-446b-98ca-a18e60247848",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 1,
+            "Duration": 0.0,
+            "Ease": 1,
+            "CharacterGroup": 1,
+            "Cloth_H": 0,
+            "Expression_H": 2,
+            "SubGroup_Adult": 0,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 0,
+            "DynamicItem_Adult": 0,
+            "Expression_Detective": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-9113153254873477510",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 40,
+          "path_id": -9113153254873477510,
+          "type": "DialogueAction",
+          "guid": "64c7d845-5b11-4f0e-af4d-1bb2a27fbea4",
+          "active": true,
+          "delay": -1.0,
+          "text": "喔！咱们通过了！",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 1,
+              "path_id": -3916218622374444140
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 990002000,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 1,
+              "path_id": -3916218622374444140
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-1292404152211174997",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 41,
+          "path_id": -1292404152211174997,
+          "type": "DialogueAction",
+          "guid": "ecae6117-e41a-48e1-b812-70a5fed63a30",
+          "active": true,
+          "delay": -1.0,
+          "text": "……不知道为什么，总感觉这个邀请函的内容和去年的很像啊！",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 7,
+              "path_id": 5068238856806089863
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 990002100,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 7,
+              "path_id": 5068238856806089863
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-1185038307856057084",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 42,
+          "path_id": -1185038307856057084,
+          "type": "CharacterAction_YanLiaoliao",
+          "guid": "b302c308-8c2a-4d0d-af87-96cf21f959f5",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "b302c308-8c2a-4d0d-af87-96cf21f959f5",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 1,
+            "Duration": 0.0,
+            "Ease": 1,
+            "CharacterGroup": 1,
+            "Cloth_H": 0,
+            "Expression_H": 1,
+            "SubGroup_Adult": 0,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 0,
+            "DynamicItem_Adult": 0,
+            "Expression_Detective": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-3839452153425475472",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 43,
+          "path_id": -3839452153425475472,
+          "type": "DialogueAction",
+          "guid": "b17cdfef-2566-4ed4-b58a-c1894bd70d1e",
+          "active": true,
+          "delay": -1.0,
+          "text": "嘛，这种东西都是大差不差的吧。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 2,
+              "path_id": -3931460406991956076
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 990002200,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 2,
+              "path_id": -3931460406991956076
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-8572026446468869414",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 44,
+          "path_id": -8572026446468869414,
+          "type": "DialogueAction",
+          "guid": "8a8f4529-bb23-48cb-ab82-b92cbe7e280a",
+          "active": true,
+          "delay": -1.0,
+          "text": "总不能是写这玩意的人实在编不出新花样了，大概？",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 2,
+              "path_id": -3931460406991956076
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 990002300,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 2,
+              "path_id": -3931460406991956076
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:5672017101878020306",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 45,
+          "path_id": 5672017101878020306,
+          "type": "CharacterAction_LuoLuoai",
+          "guid": "5f37fbe7-ce59-40ce-a214-024063f16c9b",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "5f37fbe7-ce59-40ce-a214-024063f16c9b",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 1,
+            "Cloth_H": 0,
+            "Expression_H": 6,
+            "SubGroup_Adult": 0,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 0,
+            "Expression_Brave": 0,
+            "Expression_Detective": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:5348387534476390362",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 46,
+          "path_id": 5348387534476390362,
+          "type": "DialogueAction",
+          "guid": "81721498-c2c6-4c06-850c-64c22fe02c75",
+          "active": true,
+          "delay": -1.0,
+          "text": "总之，我们是不是应该开始着手准备了？",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 10,
+              "path_id": -4840217188824566169
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 990002400,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 10,
+              "path_id": -4840217188824566169
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:4433742203808977759",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 47,
+          "path_id": 4433742203808977759,
+          "type": "CharacterAction_LuoLuoai",
+          "guid": "1089fe5f-1179-429d-8dd3-c677c9e68c2b",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "1089fe5f-1179-429d-8dd3-c677c9e68c2b",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 1,
+            "Cloth_H": 0,
+            "Expression_H": 1,
+            "SubGroup_Adult": 0,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 0,
+            "Expression_Brave": 0,
+            "Expression_Detective": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-4800220579536415665",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 48,
+          "path_id": -4800220579536415665,
+          "type": "DialogueAction",
+          "guid": "e254303e-4d87-49ab-b02b-2ff48ceb7a51",
+          "active": true,
+          "delay": -1.0,
+          "text": "嗯，不过距离暑假还有段时间，也不用那么着急……",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 990002500,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 4,
+                "m_PathID": -3942447434014718076
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-605174118566621640",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 49,
+          "path_id": -605174118566621640,
+          "type": "DialogueAction",
+          "guid": "dbd27458-f002-4b8e-80b0-f567214a8083",
+          "active": true,
+          "delay": -1.0,
+          "text": "大家先想想各自有什么感兴趣的主题，之后再开会讨论一下吧。",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 990002600,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-2396964081613945862",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 50,
+          "path_id": -2396964081613945862,
+          "type": "DialogueAction",
+          "guid": "f17f973a-2c8d-4b43-a112-b469e88b19cb",
+          "active": true,
+          "delay": -1.0,
+          "text": "时间就定在……",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 990002700,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:2506489456051588587",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 51,
+          "path_id": 2506489456051588587,
+          "type": "DialogueAction",
+          "guid": "9e54184e-824f-4e4b-8376-9a9b922f0ac3",
+          "active": true,
+          "delay": -1.0,
+          "text": "2025年4月5日，怎么样？",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 990002800,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 11,
+                "m_PathID": -6529400792158392933
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:-8703881117271374066",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 52,
+          "path_id": -8703881117271374066,
+          "type": "DialogueAction",
+          "guid": "309945fb-432c-4fd4-a0a5-9a083d06c1cb",
+          "active": true,
+          "delay": -1.0,
+          "text": "没有意见的话，咱们就散会。",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 990002900,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "pv_screenplays.bundle:2286546622941380998",
+          "bundle": "pv_screenplays.bundle",
+          "screenplay_path_id": -1991847560905936907,
+          "order": 53,
+          "path_id": 2286546622941380998,
+          "type": "DialogueAction",
+          "guid": "9d792299-3280-4165-aef5-20e292455b18",
+          "active": true,
+          "delay": -1.0,
+          "text": "啊，还有屏幕前的各位！期待和大家的正式见面哦！",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 990003000,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        }
+      ]
+    }
+  ],
+  "parse_errors": []
+}

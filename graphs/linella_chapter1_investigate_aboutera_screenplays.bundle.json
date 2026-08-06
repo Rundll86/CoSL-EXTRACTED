@@ -1,0 +1,1350 @@
+{
+  "schema_version": 1,
+  "kind": "screenplay_bundle",
+  "bundle": "linella_chapter1_investigate_aboutera_screenplays.bundle",
+  "prefix_bytes_removed": 16,
+  "screenplays": [
+    {
+      "path_id": 4450051586026796898,
+      "name": "LineLLA_Chapter1_Investigate_AboutEra",
+      "guid": "19f3a9fe-902e-4b7a-9cf6-3ee327b2bb89",
+      "actions": [
+        {
+          "id": "linella_chapter1_investigate_aboutera_screenplays.bundle:-9219603156257612280",
+          "bundle": "linella_chapter1_investigate_aboutera_screenplays.bundle",
+          "screenplay_path_id": 4450051586026796898,
+          "order": 0,
+          "path_id": -9219603156257612280,
+          "type": "DialogueAction",
+          "guid": "4b047eb9-60b9-497c-a6da-2a52af9c74c4",
+          "active": true,
+          "delay": -1.0,
+          "text": "现在是哪一年？我想知道现在和我印象中的那个年代隔了多长时间。",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 130100100,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 1,
+                "m_PathID": 480277603833666437
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutera_screenplays.bundle:1402472827810411505",
+          "bundle": "linella_chapter1_investigate_aboutera_screenplays.bundle",
+          "screenplay_path_id": 4450051586026796898,
+          "order": 1,
+          "path_id": 1402472827810411505,
+          "type": "CharacterAction_LuoLuoai",
+          "guid": "05e4aacc-7385-46dc-af2d-d2e23a39038c",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "05e4aacc-7385-46dc-af2d-d2e23a39038c",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 0,
+            "Cloth_H": 0,
+            "Expression_H": 0,
+            "SubGroup_Adult": 0,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 1,
+            "Expression_Brave": 0,
+            "Expression_Detective": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutera_screenplays.bundle:-5932503801335410019",
+          "bundle": "linella_chapter1_investigate_aboutera_screenplays.bundle",
+          "screenplay_path_id": 4450051586026796898,
+          "order": 2,
+          "path_id": -5932503801335410019,
+          "type": "DialogueAction",
+          "guid": "7a9d89d7-e5e7-417d-95b6-6108c5e1c98e",
+          "active": true,
+          "delay": -1.0,
+          "text": "现在的年份是2237年。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 3,
+              "path_id": -4840217188824566169
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130100200,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 3,
+              "path_id": -4840217188824566169
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutera_screenplays.bundle:-3133248046365278385",
+          "bundle": "linella_chapter1_investigate_aboutera_screenplays.bundle",
+          "screenplay_path_id": 4450051586026796898,
+          "order": 3,
+          "path_id": -3133248046365278385,
+          "type": "DialogueAction",
+          "guid": "f1b8199e-3b55-44fc-943c-d0ff19da886a",
+          "active": true,
+          "delay": -1.0,
+          "text": "……我去，比我想象中还要久。",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 130100300,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 4,
+                "m_PathID": -2148088793278186912
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutera_screenplays.bundle:-8871762657989802784",
+          "bundle": "linella_chapter1_investigate_aboutera_screenplays.bundle",
+          "screenplay_path_id": 4450051586026796898,
+          "order": 4,
+          "path_id": -8871762657989802784,
+          "type": "DialogueAction",
+          "guid": "deec5b14-ec17-463f-aa8c-35e4d36768be",
+          "active": true,
+          "delay": -1.0,
+          "text": "怪不得能有什么脑机、芯片还有义体之类的。",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 130100400,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutera_screenplays.bundle:-5997081820369759110",
+          "bundle": "linella_chapter1_investigate_aboutera_screenplays.bundle",
+          "screenplay_path_id": 4450051586026796898,
+          "order": 5,
+          "path_id": -5997081820369759110,
+          "type": "DialogueAction",
+          "guid": "515b816c-0565-475e-b82b-af69c2af32e1",
+          "active": true,
+          "delay": -1.0,
+          "text": "那在钱老板的认知里，现在应该是什么时候？",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 2,
+              "path_id": -3931460406991956076
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130100500,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 2,
+              "path_id": -3931460406991956076
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutera_screenplays.bundle:5114772027464949501",
+          "bundle": "linella_chapter1_investigate_aboutera_screenplays.bundle",
+          "screenplay_path_id": 4450051586026796898,
+          "order": 6,
+          "path_id": 5114772027464949501,
+          "type": "DialogueAction",
+          "guid": "eaa48cd5-4aed-4cec-a22a-415f040f27f6",
+          "active": true,
+          "delay": -1.0,
+          "text": "2025年，比现在早了两百多年……",
+          "speaker": {
+            "reference_character": false,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 1000009
+          },
+          "language_id": 130100600,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 1,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 1,
+                "m_PathID": 480277603833666437
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutera_screenplays.bundle:-2914779106014739724",
+          "bundle": "linella_chapter1_investigate_aboutera_screenplays.bundle",
+          "screenplay_path_id": 4450051586026796898,
+          "order": 7,
+          "path_id": -2914779106014739724,
+          "type": "CharacterAction_JiangBolao",
+          "guid": "328d7d6e-009b-46b1-93db-63504d812e23",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "328d7d6e-009b-46b1-93db-63504d812e23",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 0,
+            "Cloth_H": 0,
+            "Expression_H": 0,
+            "DynamicItem_H": 0,
+            "SubGroup_Adult": 2,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 0,
+            "DynamicItem_Adult": 0,
+            "Expression_Detective": 0,
+            "DynamicItem_Detective": 0,
+            "Expression_Army": 5,
+            "Expression_Brave": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutera_screenplays.bundle:4744833998845337703",
+          "bundle": "linella_chapter1_investigate_aboutera_screenplays.bundle",
+          "screenplay_path_id": 4450051586026796898,
+          "order": 8,
+          "path_id": 4744833998845337703,
+          "type": "DialogueAction",
+          "guid": "c1b83204-b938-4318-8c27-53d457238ca1",
+          "active": true,
+          "delay": -1.0,
+          "text": "哇……！那么早！",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 2,
+              "path_id": -3931460406991956076
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130100700,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 2,
+              "path_id": -3931460406991956076
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutera_screenplays.bundle:5422817332245710082",
+          "bundle": "linella_chapter1_investigate_aboutera_screenplays.bundle",
+          "screenplay_path_id": 4450051586026796898,
+          "order": 9,
+          "path_id": 5422817332245710082,
+          "type": "DialogueAction",
+          "guid": "edcc1ce8-aebb-4c22-8caa-d53f78b4d299",
+          "active": true,
+          "delay": -1.0,
+          "text": "那时候人们是怎么生活的？吃饭都吃些什么，出行都用什么交通工具？",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 2,
+              "path_id": -3931460406991956076
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130100800,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 2,
+              "path_id": -3931460406991956076
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutera_screenplays.bundle:-9118539248960280680",
+          "bundle": "linella_chapter1_investigate_aboutera_screenplays.bundle",
+          "screenplay_path_id": 4450051586026796898,
+          "order": 10,
+          "path_id": -9118539248960280680,
+          "type": "CharacterAction_YanLiaoliao",
+          "guid": "74c8d372-34a1-4716-9664-ec89530d6921",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "74c8d372-34a1-4716-9664-ec89530d6921",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 0,
+            "Cloth_H": 0,
+            "Expression_H": 0,
+            "SubGroup_Adult": 0,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 5,
+            "DynamicItem_Adult": 0,
+            "Expression_Detective": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutera_screenplays.bundle:9151410259865181592",
+          "bundle": "linella_chapter1_investigate_aboutera_screenplays.bundle",
+          "screenplay_path_id": 4450051586026796898,
+          "order": 11,
+          "path_id": 9151410259865181592,
+          "type": "CharacterAction_JiangBolao",
+          "guid": "750bc100-fbd1-4df7-b7e6-fd8c83bb18db",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "750bc100-fbd1-4df7-b7e6-fd8c83bb18db",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 0,
+            "Cloth_H": 0,
+            "Expression_H": 0,
+            "DynamicItem_H": 0,
+            "SubGroup_Adult": 2,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 0,
+            "DynamicItem_Adult": 0,
+            "Expression_Detective": 0,
+            "DynamicItem_Detective": 0,
+            "Expression_Army": 1,
+            "Expression_Brave": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutera_screenplays.bundle:5481733621327135035",
+          "bundle": "linella_chapter1_investigate_aboutera_screenplays.bundle",
+          "screenplay_path_id": 4450051586026796898,
+          "order": 12,
+          "path_id": 5481733621327135035,
+          "type": "DialogueAction",
+          "guid": "a6f8cda7-1e2f-4d11-8ce2-94ae75b96ce8",
+          "active": true,
+          "delay": -1.0,
+          "text": "……你这么激动干啥。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 5,
+              "path_id": -3916218622374444140
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130100900,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 5,
+              "path_id": -3916218622374444140
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutera_screenplays.bundle:7881322016070632589",
+          "bundle": "linella_chapter1_investigate_aboutera_screenplays.bundle",
+          "screenplay_path_id": 4450051586026796898,
+          "order": 13,
+          "path_id": 7881322016070632589,
+          "type": "DialogueAction",
+          "guid": "b98e8553-4ee6-4ade-bd76-7a33ce9ff34e",
+          "active": true,
+          "delay": -1.0,
+          "text": "这可是可遇不可求的好素材啊，我得仔细记一记方便以后写东西用……",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 2,
+              "path_id": -3931460406991956076
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130101000,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 2,
+              "path_id": -3931460406991956076
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutera_screenplays.bundle:2778004314155121924",
+          "bundle": "linella_chapter1_investigate_aboutera_screenplays.bundle",
+          "screenplay_path_id": 4450051586026796898,
+          "order": 14,
+          "path_id": 2778004314155121924,
+          "type": "DialogueAction",
+          "guid": "046a8603-197f-4ca5-b68a-e1a07bb38d88",
+          "active": true,
+          "delay": -1.0,
+          "text": "……你现在还在琢磨这个？",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 5,
+              "path_id": -3916218622374444140
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130101100,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 5,
+              "path_id": -3916218622374444140
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutera_screenplays.bundle:566071851847153795",
+          "bundle": "linella_chapter1_investigate_aboutera_screenplays.bundle",
+          "screenplay_path_id": 4450051586026796898,
+          "order": 15,
+          "path_id": 566071851847153795,
+          "type": "CharacterAction_YanLiaoliao",
+          "guid": "9eeffe30-2d13-4958-af48-eebe8aa5e3c0",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "9eeffe30-2d13-4958-af48-eebe8aa5e3c0",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 0,
+            "Cloth_H": 0,
+            "Expression_H": 0,
+            "SubGroup_Adult": 0,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 1,
+            "DynamicItem_Adult": 0,
+            "Expression_Detective": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutera_screenplays.bundle:8698533919152712107",
+          "bundle": "linella_chapter1_investigate_aboutera_screenplays.bundle",
+          "screenplay_path_id": 4450051586026796898,
+          "order": 16,
+          "path_id": 8698533919152712107,
+          "type": "DialogueAction",
+          "guid": "acd8e11b-14dd-4b5b-a43c-057c8e20d76e",
+          "active": true,
+          "delay": -1.0,
+          "text": "反正写了又发不出去，别搁这耽误正事了。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 5,
+              "path_id": -3916218622374444140
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130101200,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 5,
+              "path_id": -3916218622374444140
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutera_screenplays.bundle:-3193595944541534011",
+          "bundle": "linella_chapter1_investigate_aboutera_screenplays.bundle",
+          "screenplay_path_id": 4450051586026796898,
+          "order": 17,
+          "path_id": -3193595944541534011,
+          "type": "CharacterAction_JiangBolao",
+          "guid": "fd6f2fc6-4da4-4943-9167-4322d8198c19",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "fd6f2fc6-4da4-4943-9167-4322d8198c19",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 0,
+            "Cloth_H": 0,
+            "Expression_H": 0,
+            "DynamicItem_H": 0,
+            "SubGroup_Adult": 2,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 0,
+            "DynamicItem_Adult": 0,
+            "Expression_Detective": 0,
+            "DynamicItem_Detective": 0,
+            "Expression_Army": 2,
+            "Expression_Brave": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutera_screenplays.bundle:-1503155096637803163",
+          "bundle": "linella_chapter1_investigate_aboutera_screenplays.bundle",
+          "screenplay_path_id": 4450051586026796898,
+          "order": 18,
+          "path_id": -1503155096637803163,
+          "type": "DialogueAction",
+          "guid": "29b9613b-4532-4ef3-8298-ec5fe59f1234",
+          "active": true,
+          "delay": -1.0,
+          "text": "丢，你这话说的。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 2,
+              "path_id": -3931460406991956076
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130101300,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 2,
+              "path_id": -3931460406991956076
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutera_screenplays.bundle:-7346941577111154473",
+          "bundle": "linella_chapter1_investigate_aboutera_screenplays.bundle",
+          "screenplay_path_id": 4450051586026796898,
+          "order": 19,
+          "path_id": -7346941577111154473,
+          "type": "DialogueAction",
+          "guid": "74a28ed2-3f59-4df3-a063-75b26f9917b8",
+          "active": true,
+          "delay": -1.0,
+          "text": "说不定咱们这次成功之后我就能把小说发出去了呢。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 2,
+              "path_id": -3931460406991956076
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130101400,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 2,
+              "path_id": -3931460406991956076
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutera_screenplays.bundle:-6986631374884661299",
+          "bundle": "linella_chapter1_investigate_aboutera_screenplays.bundle",
+          "screenplay_path_id": 4450051586026796898,
+          "order": 20,
+          "path_id": -6986631374884661299,
+          "type": "CharacterAction_YanLiaoliao",
+          "guid": "905ce358-0c31-40ec-a7ba-6d346bcec6e3",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "905ce358-0c31-40ec-a7ba-6d346bcec6e3",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 0,
+            "Cloth_H": 0,
+            "Expression_H": 0,
+            "SubGroup_Adult": 0,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 5,
+            "DynamicItem_Adult": 0,
+            "Expression_Detective": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutera_screenplays.bundle:3798353624098095108",
+          "bundle": "linella_chapter1_investigate_aboutera_screenplays.bundle",
+          "screenplay_path_id": 4450051586026796898,
+          "order": 21,
+          "path_id": 3798353624098095108,
+          "type": "DialogueAction",
+          "guid": "ec3a5fbf-8d6e-4c69-889f-1c32f8631f7a",
+          "active": true,
+          "delay": -1.0,
+          "text": "你这想的也太远了……",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 5,
+              "path_id": -3916218622374444140
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130101500,
+          "events": [],
+          "resource_references": [
+            {
+              "role": "character",
+              "file_id": 5,
+              "path_id": -3916218622374444140
+            }
+          ],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutera_screenplays.bundle:-5274615227248374659",
+          "bundle": "linella_chapter1_investigate_aboutera_screenplays.bundle",
+          "screenplay_path_id": 4450051586026796898,
+          "order": 22,
+          "path_id": -5274615227248374659,
+          "type": "DialogueAction",
+          "guid": "e927106f-c242-436f-a29e-4408b14d7813",
+          "active": true,
+          "delay": -1.0,
+          "text": "赶紧的，咱们先聊下一个话题吧。",
+          "speaker": {
+            "reference_character": true,
+            "character": {
+              "file_id": 0,
+              "path_id": 0
+            },
+            "speaker_name_id": 0
+          },
+          "language_id": 130101600,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "dialogue": {
+            "IgnoreLineBreak": 0,
+            "Break": 1,
+            "DurationPerChar": 0.05000000074505806,
+            "DisplayMode": 0,
+            "IgnoreAvatar": 0,
+            "AvatarRefData": {
+              "Enabled": 0,
+              "Type": 1,
+              "Sprite": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "QlcAvatar": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              }
+            },
+            "TypingMode": 1,
+            "Ease": 1,
+            "LayoutData": {
+              "Enabled": 0,
+              "NvlHorizontalAlignment": 2,
+              "NvlVerticalAlignment": 512
+            }
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutera_screenplays.bundle:2855024784003932026",
+          "bundle": "linella_chapter1_investigate_aboutera_screenplays.bundle",
+          "screenplay_path_id": 4450051586026796898,
+          "order": 23,
+          "path_id": 2855024784003932026,
+          "type": "CharacterAction_YanLiaoliao",
+          "guid": "57900599-c38e-427c-b8eb-20ac4294f117",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "57900599-c38e-427c-b8eb-20ac4294f117",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 0,
+            "Cloth_H": 0,
+            "Expression_H": 0,
+            "SubGroup_Adult": 0,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 1,
+            "DynamicItem_Adult": 0,
+            "Expression_Detective": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutera_screenplays.bundle:683224219265741745",
+          "bundle": "linella_chapter1_investigate_aboutera_screenplays.bundle",
+          "screenplay_path_id": 4450051586026796898,
+          "order": 24,
+          "path_id": 683224219265741745,
+          "type": "CharacterAction_JiangBolao",
+          "guid": "84e68726-d3a3-47ba-ac52-7083963514a4",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "84e68726-d3a3-47ba-ac52-7083963514a4",
+            "Operation": 0,
+            "ModifyPosition": 0,
+            "UsePresentPosition": 1,
+            "PresentPosition": 1,
+            "Position": {
+              "x": 0.0,
+              "y": 0.0
+            },
+            "FlipX": 0,
+            "DisplayMode": 0,
+            "Duration": 1.0,
+            "Ease": 1,
+            "CharacterGroup": 0,
+            "Cloth_H": 0,
+            "Expression_H": 0,
+            "DynamicItem_H": 0,
+            "SubGroup_Adult": 2,
+            "Cloth_Adult": 0,
+            "Expression_Adult": 0,
+            "DynamicItem_Adult": 0,
+            "Expression_Detective": 0,
+            "DynamicItem_Detective": 0,
+            "Expression_Army": 1,
+            "Expression_Brave": 0
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        },
+        {
+          "id": "linella_chapter1_investigate_aboutera_screenplays.bundle:4877928535818572264",
+          "bundle": "linella_chapter1_investigate_aboutera_screenplays.bundle",
+          "screenplay_path_id": 4450051586026796898,
+          "order": 25,
+          "path_id": 4877928535818572264,
+          "type": "BranchReturnAction",
+          "guid": "47203b7b-8e08-47da-bb24-2adefbf9cd02",
+          "active": true,
+          "delay": -1.0,
+          "text": null,
+          "speaker": null,
+          "language_id": null,
+          "events": [],
+          "resource_references": [],
+          "branches": [],
+          "payload": {
+            "Active": 1,
+            "Delay": -1.0,
+            "Guid": "47203b7b-8e08-47da-bb24-2adefbf9cd02"
+          },
+          "unresolved_fields": {},
+          "unresolved": false
+        }
+      ]
+    }
+  ],
+  "parse_errors": []
+}

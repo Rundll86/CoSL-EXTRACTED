@@ -7,3 +7,5 @@
 !package.json
 !pnpm-lock.yaml
 !readme.md
+!graphs
+!graphs/*
