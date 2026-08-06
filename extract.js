@@ -3,8 +3,17 @@ import assetsJson from "./assets.json" with {type: "json"};
 import fs from "fs/promises";
 import jsonbig from "json-bigint";
 import path from "path";
+import process from "process";
+import { program } from "commander";
+
+program
+    .option("-r, --read", null, false)
+    .option("-f, --file <filename>", null, "graphs/entry_stage.json");
+program.parse();
+const opts = program.opts();
+
 const SPECIAL_FIELDS = {};
-const mainJson = jsonbig({ storeAsString: true }).parse(await fs.readFile("./main.json", "utf8"));
+const mainJson = jsonbig({ storeAsString: true }).parse(await fs.readFile(opts.file, "utf8"));
 const assetByKey = new Map(assetsJson.map(asset => [`${asset.type}:${asset.path_id}`, asset]));
 const objectCache = new Map();
 function pointerId(pointer) {
@@ -181,13 +190,14 @@ await fs.writeFile("tree.txt", result.filter(e => [
     "PauseAction",
     "StorylineFlagAction"
 ].includes(e.type) || e.type.startsWith("CharacterAction_")).map(e => JSON.stringify(e).replaceAll(",", "<UNCENSORED>")).join("\n"), "utf8");
-console.log(
-    result.map(e => {
-        if (e.type === "DialogueAction") {
-            return e.sayer ? `${e.sayer}：${e.text.replaceAll("\n", "\n  ")}` : `\n${e.text}\n`;
-        } else {
-            return null;
-        }
-    }).filter(Boolean).join("\n")
-);
-
+if (opts.read) {
+    console.log(
+        result.map(e => {
+            if (e.type === "DialogueAction") {
+                return e.sayer ? `${e.sayer}：${e.text.replaceAll("\n", "\n  ")}` : `\n${e.text}\n`;
+            } else {
+                return null;
+            }
+        }).filter(Boolean).join("\n")
+    );
+}

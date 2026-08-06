@@ -3,13 +3,14 @@
     "version": "1.0.0",
     "main": "extract.js",
     "scripts": {
-        "build": "node . > article.txt"
+        "build": "node ."
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "packageManager": "pnpm@10.30.3",
     "dependencies": {
+        "commander": "^15.0.0",
         "csv-parse": "^7.0.2",
         "json-bigint": "^1.0.0",
         "mermaid-ast": "^0.8.2",
