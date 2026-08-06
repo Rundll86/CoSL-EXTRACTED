@@ -4,3 +4,6 @@
 !assets.json
 !extract.js
 !l10n.json
+!package.json
+!pnpm-lock.yaml
+!readme.md

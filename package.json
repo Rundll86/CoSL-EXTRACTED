@@ -1,0 +1,19 @@
+{
+    "name": "cosl-extract",
+    "version": "1.0.0",
+    "main": "extract.js",
+    "scripts": {
+        "build": "node . > log.txt"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "packageManager": "pnpm@10.30.3",
+    "dependencies": {
+        "csv-parse": "^7.0.2",
+        "json-bigint": "^1.0.0",
+        "mermaid-ast": "^0.8.2",
+        "papaparse": "^5.5.4"
+    },
+    "type": "module"
+}
