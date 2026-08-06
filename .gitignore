@@ -1,0 +1,6 @@
+*
+!.gitignore
+!main.json
+!assets.json
+!extract.js
+!l10n.json
