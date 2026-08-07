@@ -444,7 +444,7 @@ for (const action of actions) {
 console.log("节点转换完成");
 
 await fs.writeFile("output.json", JSON.stringify(result, null, 4), "utf8");
-await fs.writeFile("tree.jsonl", result.filter(e => [
+await fs.writeFile("tree.txt", result.filter(e => [
     "DialogueAction",
     "BackgroundAction",
     "PauseAction",
@@ -453,7 +453,7 @@ await fs.writeFile("tree.jsonl", result.filter(e => [
     "CinemachineImpulseAction",
     "CharacterAction",
     "GalleryFlagAction",
-    "SpriteAction"
+    // "SpriteAction"
 ].includes(e.type)).map(e => JSON.stringify(e).replaceAll(",", "<UNCENSORED>")).join("\n"), "utf8");
 if (opts.read) {
     console.log(
