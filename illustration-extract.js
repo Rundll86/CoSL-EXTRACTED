@@ -1,4 +1,5 @@
 import assetsJson from "./assets.json" with { type: "json" };
+import { createHash } from "node:crypto";
 import fs from "fs/promises";
 import path from "path";
 import process from "process";
@@ -8,7 +9,7 @@ import { program } from "commander";
 
 program
     .description("从剧本图的 CharacterAction 节点还原并导出角色立绘")
-    .requiredOption("-f, --file <filename>", "剧本图 JSON 文件")
+    .option("-f, --file <filename>", "剧本图 JSON 文件", "graphs/entry_stage.json")
     .option("-o, --output <directory>", "输出目录", "illustrations")
     .option("--inactive", "同时导出 Active=0 的节点", false)
     .option("--overwrite", "覆盖已经存在的 PNG", false);
@@ -142,6 +143,14 @@ function selectIndexedLayer(characterSprites, prefix, family, layer, value) {
     return candidates[value - 1];
 }
 
+function selectDynamicLayers(characterSprites, prefix, family, value) {
+    if (value <= 0) return [];
+    const candidates = layerCandidates(characterSprites, prefix, family, "DynamicItem");
+    // DynamicItem 是 [Flags] 位掩码，而不是普通的从 1 开始的枚举。
+    // 例如值 5 表示同时启用第 1、3 个挂件，值 7 表示启用前三个。
+    return candidates.filter((_, index) => (value & (1 << index)) !== 0);
+}
+
 function resolveLayers(action) {
     const characterName = action.type.slice("CharacterAction_".length);
     const prefix = CHARACTER_PREFIX.get(characterName);
@@ -156,12 +165,12 @@ function resolveLayers(action) {
     const dynamicValue = valueForLayer(payload, family, "DynamicItem");
     layers.push(selectIndexedLayer(characterSprites, prefix, family, "Cloth", clothValue));
     layers.push(selectIndexedLayer(characterSprites, prefix, family, "Expression", expressionValue));
-    layers.push(selectIndexedLayer(characterSprites, prefix, family, "DynamicItem", dynamicValue));
+    layers.push(...selectDynamicLayers(characterSprites, prefix, family, dynamicValue));
 
     return { characterName, family, layers: layers.filter(Boolean) };
 }
 
-async function renderLayers(layers, outputFile, flipX) {
+async function renderLayers(layers, flipX) {
     const pixelsPerUnit = 100;
     const images = await Promise.all(layers.map(async asset => {
         const input = await fs.readFile(asset.relative_path);
@@ -217,43 +226,88 @@ async function renderLayers(layers, outputFile, flipX) {
         top: Math.round(image.worldTop - minTop)
     })));
     if (flipX) rendered = rendered.flop();
-    await rendered.png().toFile(outputFile);
+    return rendered.png().toBuffer();
 }
 
 const screenplays = Array.isArray(graph.screenplays) ? graph.screenplays : [];
-const actions = screenplays.flatMap(screenplay => Array.isArray(screenplay.actions) ? screenplay.actions : []);
-const characterActions = actions.filter(action =>
-    typeof action.type === "string"
-    && action.type.startsWith("CharacterAction_")
-    && Number(action.payload?.Operation ?? 0) === 0
-    && (options.inactive || (action.active !== false && Number(action.payload?.Active ?? 1) !== 0))
-);
+const layerFieldPattern = /^(?:Cloth|Expression|DynamicItem)_(?:H|Adult|Detective|Army|Brave|AC)$/;
+
+function mergeCharacterState(previous, payload) {
+    const nextGroup = Number(payload.CharacterGroup ?? previous?.CharacterGroup ?? 0);
+    const nextSubGroup = Number(payload.SubGroup_Adult ?? previous?.SubGroup_Adult ?? 0);
+    const familyChanged = previous
+        && (nextGroup !== Number(previous.CharacterGroup ?? 0)
+            || (nextGroup === 0 && nextSubGroup !== Number(previous.SubGroup_Adult ?? 0)));
+    const next = familyChanged ? {} : { ...(previous ?? {}) };
+
+    for (const [field, value] of Object.entries(payload)) {
+        // 剧情中的后续 CharacterAction 通常只修改一个图层；其余图层写 0
+        // 表示“不修改”，不能把已经显示的衣服、表情或挂件清掉。
+        if ((layerFieldPattern.test(field) || field === "Dynamic_Item") && Number(value) === 0) continue;
+        next[field] = value;
+    }
+    next.CharacterGroup = nextGroup;
+    next.SubGroup_Adult = nextSubGroup;
+    return next;
+}
+
+const characterActions = [];
+for (const screenplay of screenplays) {
+    const stateByCharacter = new Map();
+    for (const action of Array.isArray(screenplay.actions) ? screenplay.actions : []) {
+        if (typeof action.type !== "string" || !action.type.startsWith("CharacterAction_")) continue;
+        const enabled = action.active !== false && Number(action.payload?.Active ?? 1) !== 0;
+        if (!options.inactive && !enabled) continue;
+        const characterName = action.type.slice("CharacterAction_".length);
+        if (Number(action.payload?.Operation ?? 0) !== 0) {
+            stateByCharacter.delete(characterName);
+            continue;
+        }
+        const effectivePayload = mergeCharacterState(stateByCharacter.get(characterName), action.payload ?? {});
+        stateByCharacter.set(characterName, effectivePayload);
+        characterActions.push({ ...action, payload: effectivePayload });
+    }
+}
 
 await fs.mkdir(options.output, { recursive: true });
+const emittedHashes = new Set();
 let written = 0;
-let skipped = 0;
+let duplicated = 0;
+let existing = 0;
 let failed = 0;
 for (const action of characterActions) {
-    const outputFile = path.join(options.output, `${String(action.path_id)}.png`);
     try {
+        const resolved = resolveLayers(action);
+        const png = await renderLayers(resolved.layers, Boolean(action.payload?.FlipX));
+        const sha256 = createHash("sha256").update(png).digest("hex");
+        const outputFile = path.join(options.output, `${sha256}.png`);
+
+        if (emittedHashes.has(sha256)) {
+            duplicated++;
+            console.log(`[重复] ${action.path_id} -> ${sha256}.png`);
+            continue;
+        }
         if (!options.overwrite) {
             try {
                 await fs.access(outputFile);
-                skipped++;
+                emittedHashes.add(sha256);
+                existing++;
+                console.log(`[已有] ${action.path_id} -> ${sha256}.png`);
                 continue;
             } catch {
-                // 文件不存在，继续绘制。
+                // 文件不存在，写入最终 PNG Buffer。
             }
         }
-        const resolved = resolveLayers(action);
-        await renderLayers(resolved.layers, outputFile, Boolean(action.payload?.FlipX));
+
+        await fs.writeFile(outputFile, png);
+        emittedHashes.add(sha256);
         written++;
-        console.log(`[完成] ${action.path_id}: ${resolved.characterName}/${resolved.family} <- ${resolved.layers.map(x => x.name).join(" + ")}`);
+        console.log(`[完成] ${action.path_id} -> ${sha256}.png: ${resolved.characterName}/${resolved.family} <- ${resolved.layers.map(x => x.name).join(" + ")}`);
     } catch (error) {
         failed++;
         console.error(`[失败] ${action.path_id}: ${error.message}`);
     }
 }
 
-console.log(`处理结束：节点 ${characterActions.length}，写入 ${written}，跳过 ${skipped}，失败 ${failed}。`);
+console.log(`处理结束：节点 ${characterActions.length}，唯一图片 ${emittedHashes.size}，写入 ${written}，重复 ${duplicated}，已有 ${existing}，失败 ${failed}。`);
 if (failed > 0) process.exitCode = 1;
