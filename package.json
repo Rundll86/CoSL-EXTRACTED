@@ -3,8 +3,7 @@
     "version": "1.0.0",
     "scripts": {
         "build": "run-s build:tree",
-        "build:tree": "node tree-extract.js",
-        "build:illustration": "node illustration-extract.js"
+        "build:tree": "node tree-extract.js"
     },
     "keywords": [],
     "author": "",
