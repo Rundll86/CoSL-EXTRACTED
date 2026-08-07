@@ -277,6 +277,7 @@ const illustrationStateByCharacter = new Map();
 const emittedIllustrations = new Set();
 await fs.mkdir(opts.illustrations, { recursive: true });
 await fs.mkdir("sounds", { recursive: true });
+await fs.mkdir("cg-parts", { recursive: true });
 async function processCharacterAction(action) {
     const characterName = action.type.slice("CharacterAction_".length);
     if (Number(action.payload?.Operation ?? 0) !== 0) {
@@ -380,6 +381,15 @@ for (const action of actions) {
         show = !Number(action.payload?.Operation ?? 0);
         layer = action.payload?.OrderInLayer;
         spriteForAction = getAssetPlainName(pointerId(action.payload?.Sprite));
+        const spriteAsset = findAsset(pointerId(action.payload?.Sprite), "Sprite");
+        if (spriteAsset?.relative_path) {
+            const destFile = path.join("cg-parts", path.basename(spriteAsset.relative_path));
+            try {
+                await fs.access(destFile);
+            } catch {
+                await fs.copyFile(spriteAsset.relative_path, destFile);
+            }
+        }
     }
     let sound;
     let track;
