@@ -1,6 +1,6 @@
 # 《英王的宝冠》剧情&拓扑图 全文
 
-源代码为LambdaCDM编写，`extract.js`用来尽量化简。
+源代码为LambdaCDM编写，`tree-extract.js`化简。
 
 ## 转换为人类可读的文本
 
