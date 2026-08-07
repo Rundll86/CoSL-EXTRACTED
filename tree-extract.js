@@ -349,18 +349,27 @@ for (const action of actions) {
         sprite ??= await resolveCharacterAvatar(characterId, refData?.Type);
         if (sprite && key) currentAvatarBySpeaker.set(key, sprite);
     }
-    const illustration = action.type.startsWith("CharacterAction_")
+    const isCharacterAction = action.type.startsWith("CharacterAction_");
+    const character = isCharacterAction
+        ? action.type.slice("CharacterAction_".length)
+        : undefined;
+    const illustration = isCharacterAction
         ? await processCharacterAction(action)
+        : undefined;
+    const operation = isCharacterAction
+        ? Number(action.payload?.Operation ?? 0)
         : undefined;
     const centerDisplay = Boolean(action.dialogue?.DisplayMode);
     const output = {
-        type: action.type,
+        type: isCharacterAction ? "CharacterAction" : action.type,
         text: l10n[action.language_id]?.replace(/<\/?[^>]+>/g, ''),
         sayer,
         order: action.order,
         background: getAssetPlainName(pointerId(action.payload?.BackgroundSprite)),
         pause: action.payload?.PauseDuration,
         center: centerDisplay,
+        character,
+        operation,
         illustration,
         ...(SPECIAL_FIELDS[action.path_id] ?? {})
     };
@@ -376,8 +385,9 @@ await fs.writeFile("tree.txt", result.filter(e => [
     "BackgroundAction",
     "PauseAction",
     "StorylineFlagAction",
-    "CinemachineImpulseAction"
-].includes(e.type) || e.type.startsWith("CharacterAction_")).map(e => JSON.stringify(e).replaceAll(",", "<UNCENSORED>")).join("\n"), "utf8");
+    "CinemachineImpulseAction",
+    "CharacterAction"
+].includes(e.type)).map(e => JSON.stringify(e).replaceAll(",", "<UNCENSORED>")).join("\n"), "utf8");
 if (opts.read) {
     console.log(
         result.map(e => {
