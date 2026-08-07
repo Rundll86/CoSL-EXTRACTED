@@ -1,9 +1,10 @@
 {
     "name": "cosl-extract",
     "version": "1.0.0",
-    "main": "extract.js",
     "scripts": {
-        "build": "node ."
+        "build": "run-s build:tree",
+        "build:tree": "node tree-extract.js",
+        "build:illustration": "node illustration-extract.js"
     },
     "keywords": [],
     "author": "",
@@ -11,10 +12,12 @@
     "packageManager": "pnpm@10.30.3",
     "dependencies": {
         "commander": "^15.0.0",
-        "csv-parse": "^7.0.2",
         "json-bigint": "^1.0.0",
-        "mermaid-ast": "^0.8.2",
-        "papaparse": "^5.5.4"
+        "papaparse": "^5.5.4",
+        "sharp": "^0.35.3"
     },
-    "type": "module"
+    "type": "module",
+    "devDependencies": {
+        "npm-run-all": "^4.1.5"
+    }
 }

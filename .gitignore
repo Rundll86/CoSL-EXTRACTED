@@ -2,7 +2,7 @@
 !.gitignore
 !main.json
 !assets.json
-!extract.js
+!*-extract.js
 !l10n.json
 !package.json
 !pnpm-lock.yaml
