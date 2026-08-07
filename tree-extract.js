@@ -1,6 +1,7 @@
 import l10nJson from "./l10n.json" with {type: "json"};
 import assetsJson from "./assets.json" with {type: "json"};
 import { createHash } from "node:crypto";
+import { execFile } from "child_process";
 import fs from "fs/promises";
 import jsonbig from "json-bigint";
 import path from "path";
@@ -275,6 +276,7 @@ function mergeCharacterState(previous, payload) {
 const illustrationStateByCharacter = new Map();
 const emittedIllustrations = new Set();
 await fs.mkdir(opts.illustrations, { recursive: true });
+await fs.mkdir("sounds", { recursive: true });
 async function processCharacterAction(action) {
     const characterName = action.type.slice("CharacterAction_".length);
     if (Number(action.payload?.Operation ?? 0) !== 0) {
@@ -308,8 +310,12 @@ function speakerKey(speaker) {
     if (speaker.reference_character) return `character:${String(pointerId(speaker.character))}`;
     return `name:${String(speaker.speaker_name_id ?? "")}`;
 }
+let i = 0;
+const length = actions.length;
 for (const action of actions) {
     if (!action.active) continue;
+    i++;
+    process.stdout.write(`${i}/${length}\r`);
     const payload = action.payload ?? {};
     if (action.type === "AvatarBindAction") {
         const nameId = String(payload.NameId ?? "");
@@ -360,6 +366,28 @@ for (const action of actions) {
         ? Number(action.payload?.Operation ?? 0)
         : undefined;
     const centerDisplay = Boolean(action.dialogue?.DisplayMode);
+    let sound;
+    let track;
+    let stop;
+    if (action.type === "SoundAction") {
+        track = action.payload?.SoundInOptions?.MmSoundManagerTrack;
+        stop = action.payload?.Mode === 3;
+        const audioClipPathId = pointerId(action.payload?.AudioClip);
+        const audioAsset = findAsset(audioClipPathId, "AudioClip");
+        if (audioAsset?.relative_path) {
+            const outputFile = path.join("sounds", `${audioClipPathId}.mp3`);
+            (async () => {
+                try {
+                    await fs.access(outputFile);
+                } catch {
+                    execFile("ffmpeg", ["-i", audioAsset.relative_path, "-y", outputFile], (err) => {
+                        if (err) console.error(`ffmpeg error: ${err.message}`);
+                    });
+                }
+            })()
+            sound = String(audioClipPathId);
+        }
+    }
     const output = {
         type: isCharacterAction ? "CharacterAction" : action.type,
         text: l10n[action.language_id]?.replace(/<\/?[^>]+>/g, ''),
@@ -371,6 +399,11 @@ for (const action of actions) {
         character,
         operation,
         illustration,
+        sound,
+        track,
+        stop,
+        loop: action.payload?.SoundInOptions?.Loop,
+        volume: action.payload?.SoundInOptions?.Volume,
         ...(SPECIAL_FIELDS[action.path_id] ?? {})
     };
     if (action.type === "DialogueAction") {
@@ -379,11 +412,14 @@ for (const action of actions) {
     }
     result.push(output);
 }
+console.log("节点转换完成");
+
 await fs.writeFile("output.json", JSON.stringify(result, null, 4), "utf8");
 await fs.writeFile("tree.txt", result.filter(e => [
     "DialogueAction",
     "BackgroundAction",
     "PauseAction",
+    "SoundAction",
     "StorylineFlagAction",
     "CinemachineImpulseAction",
     "CharacterAction",
