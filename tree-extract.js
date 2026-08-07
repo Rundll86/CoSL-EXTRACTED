@@ -366,6 +366,21 @@ for (const action of actions) {
         ? Number(action.payload?.Operation ?? 0)
         : undefined;
     const centerDisplay = Boolean(action.dialogue?.DisplayMode);
+    let position;
+    let show;
+    let layer;
+    let spriteForAction;
+    if (action.type === "SpriteAction") {
+        const px = action.payload?.Position?.x;
+        const py = action.payload?.Position?.y;
+        if (px !== undefined && py !== undefined) {
+            const pixelsPerUnit = 100;
+            position = [px * pixelsPerUnit, py * pixelsPerUnit];
+        }
+        show = !Number(action.payload?.Operation ?? 0);
+        layer = action.payload?.OrderInLayer;
+        spriteForAction = getAssetPlainName(pointerId(action.payload?.Sprite));
+    }
     let sound;
     let track;
     let stop;
@@ -404,6 +419,10 @@ for (const action of actions) {
         stop,
         loop: action.payload?.SoundInOptions?.Loop,
         volume: action.payload?.SoundInOptions?.Volume,
+        position,
+        show,
+        layer,
+        sprite: spriteForAction,
         ...(SPECIAL_FIELDS[action.path_id] ?? {})
     };
     if (action.type === "DialogueAction") {
@@ -415,7 +434,7 @@ for (const action of actions) {
 console.log("节点转换完成");
 
 await fs.writeFile("output.json", JSON.stringify(result, null, 4), "utf8");
-await fs.writeFile("tree.txt", result.filter(e => [
+await fs.writeFile("tree.jsonl", result.filter(e => [
     "DialogueAction",
     "BackgroundAction",
     "PauseAction",
@@ -423,7 +442,8 @@ await fs.writeFile("tree.txt", result.filter(e => [
     "StorylineFlagAction",
     "CinemachineImpulseAction",
     "CharacterAction",
-    "GalleryFlagAction"
+    "GalleryFlagAction",
+    "SpriteAction"
 ].includes(e.type)).map(e => JSON.stringify(e).replaceAll(",", "<UNCENSORED>")).join("\n"), "utf8");
 if (opts.read) {
     console.log(
